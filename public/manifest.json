@@ -1,0 +1,15 @@
+{
+  "short_name": "Pokemon Sandwich Simulator",
+  "name": "Pokemon Sandwich Simulator",
+  "icons": [
+    {
+      "src": "sandwich.png",
+      "type": "image/png",
+      "sizes": "160x160"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

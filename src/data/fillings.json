@@ -1,0 +1,1793 @@
+[
+  {
+    "name": "Apple",
+    "tastes": [
+      {
+        "flavor": "甘味",
+        "amount": 4
+      },
+      {
+        "flavor": "Sour",
+        "amount": 3
+      },
+      {
+        "flavor": "Bitter",
+        "amount": 1
+      }
+    ],
+    "powers": [
+      {
+        "type": "Egg",
+        "amount": 4
+      },
+      {
+        "type": "Catch",
+        "amount": -1
+      },
+      {
+        "type": "Item",
+        "amount": 7
+      },
+      {
+        "type": "Humungo",
+        "amount": -5
+      }
+    ],
+    "types": [
+      {
+        "type": "ひこう",
+        "amount": 7
+      },
+      {
+        "type": "はがね",
+        "amount": 7
+      },
+      {
+        "type": "こおり",
+        "amount": 7
+      }
+    ],
+    "imageUrl": "https://www.serebii.net/itemdex/sprites/apple.png",
+    "pieces": 3,
+    "id": 32,
+    "maxPiecesOnDish": 6
+  },
+  {
+    "name": "Avocado",
+    "tastes": [
+      {
+        "flavor": "甘味",
+        "amount": 3
+      },
+      {
+        "flavor": "Sour",
+        "amount": 1
+      }
+    ],
+    "powers": [
+      {
+        "type": "Catch",
+        "amount": 4
+      },
+      {
+        "type": "Raid",
+        "amount": -1
+      },
+      {
+        "type": "Encounter",
+        "amount": 7
+      }
+    ],
+    "types": [
+      {
+        "type": "ドラゴン",
+        "amount": 6
+      }
+    ],
+    "imageUrl": "https://www.serebii.net/itemdex/sprites/avocado.png",
+    "pieces": 3,
+    "id": 13,
+    "maxPiecesOnDish": 6
+  },
+  {
+    "name": "Bacon",
+    "tastes": [
+      {
+        "flavor": "甘味",
+        "amount": 1
+      },
+      {
+        "flavor": "Salty",
+        "amount": 5
+      },
+      {
+        "flavor": "Sour",
+        "amount": 1
+      },
+      {
+        "flavor": "Bitter",
+        "amount": 4
+      }
+    ],
+    "powers": [
+      {
+        "type": "Catch",
+        "amount": 4
+      },
+      {
+        "type": "Raid",
+        "amount": -1
+      },
+      {
+        "type": "Encounter",
+        "amount": 7
+      }
+    ],
+    "types": [
+      {
+        "type": "いわ",
+        "amount": 6
+      }
+    ],
+    "imageUrl": "https://www.serebii.net/itemdex/sprites/bacon.png",
+    "pieces": 3,
+    "id": 14,
+    "maxPiecesOnDish": 3
+  },
+  {
+    "name": "Banana",
+    "tastes": [
+      {
+        "flavor": "甘味",
+        "amount": 4
+      },
+      {
+        "flavor": "Sour",
+        "amount": 1
+      }
+    ],
+    "powers": [
+      {
+        "type": "Egg",
+        "amount": 4
+      },
+      {
+        "type": "Catch",
+        "amount": -1
+      },
+      {
+        "type": "Item",
+        "amount": 7
+      },
+      {
+        "type": "Humungo",
+        "amount": -5
+      }
+    ],
+    "types": [
+      {
+        "type": "ノーマル",
+        "amount": 7
+      },
+      {
+        "type": "むし",
+        "amount": 7
+      },
+      {
+        "type": "でんき",
+        "amount": 7
+      }
+    ],
+    "imageUrl": "https://www.serebii.net/itemdex/sprites/banana.png",
+    "pieces": 3,
+    "id": 30,
+    "maxPiecesOnDish": 6
+  },
+  {
+    "name": "Basil",
+    "tastes": [
+      {
+        "flavor": "Salty",
+        "amount": 1
+      },
+      {
+        "flavor": "Sour",
+        "amount": 1
+      },
+      {
+        "flavor": "Bitter",
+        "amount": 4
+      }
+    ],
+    "powers": [
+      {
+        "type": "Egg",
+        "amount": 2
+      },
+      {
+        "type": "Raid",
+        "amount": 2
+      },
+      {
+        "type": "Encounter",
+        "amount": -2
+      }
+    ],
+    "types": [
+      {
+        "type": "ほのお",
+        "amount": 1
+      },
+      {
+        "type": "みず",
+        "amount": 1
+      },
+      {
+        "type": "くさ",
+        "amount": 1
+      },
+      {
+        "type": "でんき",
+        "amount": 1
+      },
+      {
+        "type": "エスパー",
+        "amount": 1
+      },
+      {
+        "type": "こおり",
+        "amount": 1
+      },
+      {
+        "type": "ドラゴン",
+        "amount": 1
+      },
+      {
+        "type": "あく",
+        "amount": 1
+      },
+      {
+        "type": "フェアリー",
+        "amount": 1
+      }
+    ],
+    "imageUrl": "https://www.serebii.net/itemdex/sprites/basil.png",
+    "pieces": 4,
+    "id": 37,
+    "maxPiecesOnDish": 4
+  },
+  {
+    "name": "Cheese",
+    "tastes": [
+      {
+        "flavor": "甘味",
+        "amount": 1
+      },
+      {
+        "flavor": "Salty",
+        "amount": 3
+      }
+    ],
+    "powers": [
+      {
+        "type": "Catch",
+        "amount": 2
+      },
+      {
+        "type": "Exp",
+        "amount": 2
+      },
+      {
+        "type": "Item",
+        "amount": 2
+      },
+      {
+        "type": "Encounter",
+        "amount": -2
+      }
+    ],
+    "types": [
+      {
+        "type": "ノーマル",
+        "amount": 5
+      },
+      {
+        "type": "かくとう",
+        "amount": 5
+      },
+      {
+        "type": "ひこう",
+        "amount": 5
+      },
+      {
+        "type": "どく",
+        "amount": 5
+      },
+      {
+        "type": "じめん",
+        "amount": 5
+      },
+      {
+        "type": "いわ",
+        "amount": 5
+      },
+      {
+        "type": "むし",
+        "amount": 5
+      },
+      {
+        "type": "ゴースト",
+        "amount": 5
+      },
+      {
+        "type": "はがね",
+        "amount": 5
+      },
+      {
+        "type": "ほのお",
+        "amount": 5
+      },
+      {
+        "type": "みず",
+        "amount": 5
+      },
+      {
+        "type": "くさ",
+        "amount": 5
+      },
+      {
+        "type": "でんき",
+        "amount": 5
+      },
+      {
+        "type": "エスパー",
+        "amount": 5
+      },
+      {
+        "type": "こおり",
+        "amount": 5
+      },
+      {
+        "type": "ドラゴン",
+        "amount": 5
+      },
+      {
+        "type": "あく",
+        "amount": 5
+      },
+      {
+        "type": "フェアリー",
+        "amount": 5
+      }
+    ],
+    "imageUrl": "https://www.serebii.net/itemdex/sprites/cheese.png",
+    "pieces": 3,
+    "id": 29,
+    "maxPiecesOnDish": 3
+  },
+  {
+    "name": "Cherry Tomatoes",
+    "tastes": [
+      {
+        "flavor": "甘味",
+        "amount": 3
+      },
+      {
+        "flavor": "Sour",
+        "amount": 5
+      },
+      {
+        "flavor": "Bitter",
+        "amount": 1
+      }
+    ],
+    "powers": [
+      {
+        "type": "Catch",
+        "amount": 4
+      },
+      {
+        "type": "Raid",
+        "amount": -1
+      },
+      {
+        "type": "Encounter",
+        "amount": 7
+      }
+    ],
+    "types": [
+      {
+        "type": "むし",
+        "amount": 6
+      }
+    ],
+    "imageUrl": "https://www.serebii.net/itemdex/sprites/cherrytomatoes.png",
+    "pieces": 3,
+    "id": 5,
+    "maxPiecesOnDish": 9
+  },
+  {
+    "name": "Chorizo",
+    "tastes": [
+      {
+        "flavor": "Salty",
+        "amount": 4
+      },
+      {
+        "flavor": "Bitter",
+        "amount": 2
+      },
+      {
+        "flavor": "Hot",
+        "amount": 4
+      }
+    ],
+    "powers": [
+      {
+        "type": "Exp",
+        "amount": 7
+      },
+      {
+        "type": "Item",
+        "amount": -1
+      },
+      {
+        "type": "Encounter",
+        "amount": 4
+      }
+    ],
+    "types": [
+      {
+        "type": "ノーマル",
+        "amount": 12
+      },
+      {
+        "type": "どく",
+        "amount": 12
+      },
+      {
+        "type": "むし",
+        "amount": 12
+      },
+      {
+        "type": "ほのお",
+        "amount": 12
+      },
+      {
+        "type": "でんき",
+        "amount": 12
+      },
+      {
+        "type": "ドラゴン",
+        "amount": 12
+      }
+    ],
+    "imageUrl": "https://www.serebii.net/itemdex/sprites/chorizo.png",
+    "pieces": 3,
+    "id": 17,
+    "maxPiecesOnDish": 6
+  },
+  {
+    "name": "Cucumber",
+    "tastes": [
+      {
+        "flavor": "Sour",
+        "amount": 1
+      },
+      {
+        "flavor": "Bitter",
+        "amount": 1
+      }
+    ],
+    "powers": [
+      {
+        "type": "Catch",
+        "amount": 4
+      },
+      {
+        "type": "Raid",
+        "amount": -1
+      },
+      {
+        "type": "Encounter",
+        "amount": 7
+      }
+    ],
+    "types": [
+      {
+        "type": "みず",
+        "amount": 6
+      }
+    ],
+    "imageUrl": "https://www.serebii.net/itemdex/sprites/cucumber.png",
+    "pieces": 3,
+    "id": 6,
+    "maxPiecesOnDish": 6
+  },
+  {
+    "name": "Egg",
+    "tastes": [
+      {
+        "flavor": "甘味",
+        "amount": 1
+      },
+      {
+        "flavor": "Salty",
+        "amount": 2
+      },
+      {
+        "flavor": "Bitter",
+        "amount": 1
+      }
+    ],
+    "powers": [
+      {
+        "type": "Exp",
+        "amount": 7
+      },
+      {
+        "type": "Item",
+        "amount": -1
+      },
+      {
+        "type": "Encounter",
+        "amount": 4
+      }
+    ],
+    "types": [
+      {
+        "type": "ひこう",
+        "amount": 12
+      },
+      {
+        "type": "いわ",
+        "amount": 12
+      },
+      {
+        "type": "はがね",
+        "amount": 12
+      },
+      {
+        "type": "くさ",
+        "amount": 12
+      },
+      {
+        "type": "こおり",
+        "amount": 12
+      },
+      {
+        "type": "フェアリー",
+        "amount": 12
+      }
+    ],
+    "imageUrl": "https://www.serebii.net/itemdex/sprites/egg.png",
+    "pieces": 3,
+    "id": 23,
+    "maxPiecesOnDish": 3
+  },
+  {
+    "name": "Fried Fillet",
+    "tastes": [
+      {
+        "flavor": "甘味",
+        "amount": 2
+      },
+      {
+        "flavor": "Salty",
+        "amount": 3
+      },
+      {
+        "flavor": "Bitter",
+        "amount": 3
+      }
+    ],
+    "powers": [
+      {
+        "type": "Catch",
+        "amount": 21
+      },
+      {
+        "type": "Raid",
+        "amount": 12
+      },
+      {
+        "type": "Encounter",
+        "amount": -3
+      }
+    ],
+    "types": [
+      {
+        "type": "ノーマル",
+        "amount": 20
+      },
+      {
+        "type": "ひこう",
+        "amount": 20
+      },
+      {
+        "type": "じめん",
+        "amount": 20
+      },
+      {
+        "type": "むし",
+        "amount": 20
+      },
+      {
+        "type": "はがね",
+        "amount": 20
+      },
+      {
+        "type": "みず",
+        "amount": 20
+      },
+      {
+        "type": "でんき",
+        "amount": 20
+      },
+      {
+        "type": "こおり",
+        "amount": 20
+      },
+      {
+        "type": "あく",
+        "amount": 20
+      }
+    ],
+    "imageUrl": "https://www.serebii.net/itemdex/sprites/friedfillet.png",
+    "pieces": 1,
+    "id": 22,
+    "maxPiecesOnDish": 1
+  },
+  {
+    "name": "Green Bell Pepper",
+    "tastes": [
+      {
+        "flavor": "甘味",
+        "amount": 1
+      },
+      {
+        "flavor": "Sour",
+        "amount": 1
+      },
+      {
+        "flavor": "Bitter",
+        "amount": 5
+      }
+    ],
+    "powers": [
+      {
+        "type": "Catch",
+        "amount": 4
+      },
+      {
+        "type": "Raid",
+        "amount": -1
+      },
+      {
+        "type": "Encounter",
+        "amount": 7
+      }
+    ],
+    "types": [
+      {
+        "type": "どく",
+        "amount": 6
+      }
+    ],
+    "imageUrl": "https://www.serebii.net/itemdex/sprites/greenbellpepper.png",
+    "pieces": 3,
+    "id": 10,
+    "maxPiecesOnDish": 6
+  },
+  {
+    "name": "Ham",
+    "tastes": [
+      {
+        "flavor": "甘味",
+        "amount": 1
+      },
+      {
+        "flavor": "Salty",
+        "amount": 5
+      }
+    ],
+    "powers": [
+      {
+        "type": "Catch",
+        "amount": 4
+      },
+      {
+        "type": "Raid",
+        "amount": -1
+      },
+      {
+        "type": "Encounter",
+        "amount": 7
+      }
+    ],
+    "types": [
+      {
+        "type": "じめん",
+        "amount": 6
+      }
+    ],
+    "imageUrl": "https://www.serebii.net/itemdex/sprites/ham.png",
+    "pieces": 3,
+    "id": 15,
+    "maxPiecesOnDish": 6
+  },
+  {
+    "name": "Hamburger",
+    "tastes": [
+      {
+        "flavor": "甘味",
+        "amount": 6
+      },
+      {
+        "flavor": "Salty",
+        "amount": 12
+      },
+      {
+        "flavor": "Bitter",
+        "amount": 9
+      }
+    ],
+    "powers": [
+      {
+        "type": "Catch",
+        "amount": 12
+      },
+      {
+        "type": "Raid",
+        "amount": -3
+      },
+      {
+        "type": "Encounter",
+        "amount": 21
+      }
+    ],
+    "types": [
+      {
+        "type": "はがね",
+        "amount": 18
+      }
+    ],
+    "imageUrl": "https://www.serebii.net/itemdex/sprites/hamburger.png",
+    "pieces": 1,
+    "id": 19,
+    "maxPiecesOnDish": 1
+  },
+  {
+    "name": "Herbed Sausage",
+    "tastes": [
+      {
+        "flavor": "甘味",
+        "amount": 1
+      },
+      {
+        "flavor": "Salty",
+        "amount": 4
+      },
+      {
+        "flavor": "Bitter",
+        "amount": 4
+      }
+    ],
+    "powers": [
+      {
+        "type": "Exp",
+        "amount": 7
+      },
+      {
+        "type": "Item",
+        "amount": -1
+      },
+      {
+        "type": "Encounter",
+        "amount": 4
+      }
+    ],
+    "types": [
+      {
+        "type": "かくとう",
+        "amount": 12
+      },
+      {
+        "type": "じめん",
+        "amount": 12
+      },
+      {
+        "type": "ゴースト",
+        "amount": 12
+      },
+      {
+        "type": "みず",
+        "amount": 12
+      },
+      {
+        "type": "エスパー",
+        "amount": 12
+      },
+      {
+        "type": "あく",
+        "amount": 12
+      }
+    ],
+    "imageUrl": "https://www.serebii.net/itemdex/sprites/herbedsausage.png",
+    "pieces": 3,
+    "id": 18,
+    "maxPiecesOnDish": 6
+  },
+  {
+    "name": "Jalapeno",
+    "tastes": [
+      {
+        "flavor": "Sour",
+        "amount": 2
+      },
+      {
+        "flavor": "Hot",
+        "amount": 5
+      }
+    ],
+    "powers": [
+      {
+        "type": "Egg",
+        "amount": 4
+      },
+      {
+        "type": "Catch",
+        "amount": -1
+      },
+      {
+        "type": "Item",
+        "amount": 7
+      },
+      {
+        "type": "Humungo",
+        "amount": -5
+      }
+    ],
+    "types": [
+      {
+        "type": "いわ",
+        "amount": 7
+      },
+      {
+        "type": "くさ",
+        "amount": 7
+      },
+      {
+        "type": "フェアリー",
+        "amount": 7
+      }
+    ],
+    "imageUrl": "https://www.serebii.net/itemdex/sprites/jalapeno.png",
+    "pieces": 3,
+    "id": 35,
+    "maxPiecesOnDish": 3
+  },
+  {
+    "name": "Kiwi",
+    "tastes": [
+      {
+        "flavor": "甘味",
+        "amount": 2
+      },
+      {
+        "flavor": "Sour",
+        "amount": 5
+      },
+      {
+        "flavor": "Bitter",
+        "amount": 1
+      }
+    ],
+    "powers": [
+      {
+        "type": "Egg",
+        "amount": 4
+      },
+      {
+        "type": "Catch",
+        "amount": -1
+      },
+      {
+        "type": "Item",
+        "amount": 7
+      },
+      {
+        "type": "Humungo",
+        "amount": -5
+      }
+    ],
+    "types": [
+      {
+        "type": "どく",
+        "amount": 7
+      },
+      {
+        "type": "ほのお",
+        "amount": 7
+      },
+      {
+        "type": "ドラゴン",
+        "amount": 7
+      }
+    ],
+    "imageUrl": "https://www.serebii.net/itemdex/sprites/kiwi.png",
+    "pieces": 3,
+    "id": 33,
+    "maxPiecesOnDish": 6
+  },
+  {
+    "name": "Klawf Stick",
+    "tastes": [
+      {
+        "flavor": "甘味",
+        "amount": 4
+      },
+      {
+        "flavor": "Salty",
+        "amount": 4
+      }
+    ],
+    "powers": [
+      {
+        "type": "Catch",
+        "amount": 4
+      },
+      {
+        "type": "Raid",
+        "amount": -1
+      },
+      {
+        "type": "Encounter",
+        "amount": 7
+      }
+    ],
+    "types": [
+      {
+        "type": "こおり",
+        "amount": 6
+      }
+    ],
+    "imageUrl": "https://www.serebii.net/itemdex/sprites/klawfstick.png",
+    "pieces": 3,
+    "id": 20,
+    "maxPiecesOnDish": 3
+  },
+  {
+    "name": "Lettuce",
+    "tastes": [
+      {
+        "flavor": "甘味",
+        "amount": 1
+      },
+      {
+        "flavor": "Bitter",
+        "amount": 2
+      }
+    ],
+    "powers": [
+      {
+        "type": "Catch",
+        "amount": 4
+      },
+      {
+        "type": "Raid",
+        "amount": -1
+      },
+      {
+        "type": "Encounter",
+        "amount": 7
+      }
+    ],
+    "types": [
+      {
+        "type": "くさ",
+        "amount": 6
+      }
+    ],
+    "imageUrl": "https://www.serebii.net/itemdex/sprites/lettuce.png",
+    "pieces": 3,
+    "id": 3,
+    "maxPiecesOnDish": 3
+  },
+  {
+    "name": "Noodles",
+    "tastes": [
+      {
+        "flavor": "Salty",
+        "amount": 4
+      }
+    ],
+    "powers": [
+      {
+        "type": "Humungo",
+        "amount": 21
+      },
+      {
+        "type": "Teensy",
+        "amount": -3
+      },
+      {
+        "type": "Encounter",
+        "amount": 12
+      }
+    ],
+    "types": [
+      {
+        "type": "どく",
+        "amount": 30
+      },
+      {
+        "type": "じめん",
+        "amount": 30
+      },
+      {
+        "type": "いわ",
+        "amount": 30
+      },
+      {
+        "type": "でんき",
+        "amount": 30
+      },
+      {
+        "type": "エスパー",
+        "amount": 30
+      },
+      {
+        "type": "こおり",
+        "amount": 30
+      }
+    ],
+    "imageUrl": "https://www.serebii.net/itemdex/sprites/noodles.png",
+    "pieces": 1,
+    "id": 27,
+    "maxPiecesOnDish": 1
+  },
+  {
+    "name": "Onion",
+    "tastes": [
+      {
+        "flavor": "甘味",
+        "amount": 2
+      },
+      {
+        "flavor": "Bitter",
+        "amount": 1
+      },
+      {
+        "flavor": "Hot",
+        "amount": 3
+      }
+    ],
+    "powers": [
+      {
+        "type": "Catch",
+        "amount": 4
+      },
+      {
+        "type": "Raid",
+        "amount": -1
+      },
+      {
+        "type": "Encounter",
+        "amount": 7
+      }
+    ],
+    "types": [
+      {
+        "type": "エスパー",
+        "amount": 6
+      }
+    ],
+    "imageUrl": "https://www.serebii.net/itemdex/sprites/onion.png",
+    "pieces": 3,
+    "id": 8,
+    "maxPiecesOnDish": 6
+  },
+  {
+    "name": "Pickle",
+    "tastes": [
+      {
+        "flavor": "甘味",
+        "amount": 1
+      },
+      {
+        "flavor": "Sour",
+        "amount": 4
+      },
+      {
+        "flavor": "Bitter",
+        "amount": 2
+      }
+    ],
+    "powers": [
+      {
+        "type": "Catch",
+        "amount": 4
+      },
+      {
+        "type": "Raid",
+        "amount": -1
+      },
+      {
+        "type": "Encounter",
+        "amount": 7
+      }
+    ],
+    "types": [
+      {
+        "type": "かくとう",
+        "amount": 6
+      }
+    ],
+    "imageUrl": "https://www.serebii.net/itemdex/sprites/pickle.png",
+    "pieces": 3,
+    "id": 7,
+    "maxPiecesOnDish": 6
+  },
+  {
+    "name": "Pineapple",
+    "tastes": [
+      {
+        "flavor": "甘味",
+        "amount": 3
+      },
+      {
+        "flavor": "Sour",
+        "amount": 5
+      },
+      {
+        "flavor": "Bitter",
+        "amount": 1
+      }
+    ],
+    "powers": [
+      {
+        "type": "Egg",
+        "amount": 4
+      },
+      {
+        "type": "Catch",
+        "amount": -1
+      },
+      {
+        "type": "Item",
+        "amount": 7
+      },
+      {
+        "type": "Humungo",
+        "amount": -5
+      }
+    ],
+    "types": [
+      {
+        "type": "じめん",
+        "amount": 7
+      },
+      {
+        "type": "みず",
+        "amount": 7
+      },
+      {
+        "type": "あく",
+        "amount": 7
+      }
+    ],
+    "imageUrl": "https://www.serebii.net/itemdex/sprites/pineapple.png",
+    "pieces": 3,
+    "id": 34,
+    "maxPiecesOnDish": 6
+  },
+  {
+    "name": "Potato Salad",
+    "tastes": [
+      {
+        "flavor": "甘味",
+        "amount": 2
+      },
+      {
+        "flavor": "Salty",
+        "amount": 3
+      },
+      {
+        "flavor": "Sour",
+        "amount": 4
+      },
+      {
+        "flavor": "Bitter",
+        "amount": 1
+      }
+    ],
+    "powers": [
+      {
+        "type": "Humungo",
+        "amount": 21
+      },
+      {
+        "type": "Teensy",
+        "amount": -3
+      },
+      {
+        "type": "Encounter",
+        "amount": 12
+      }
+    ],
+    "types": [
+      {
+        "type": "むし",
+        "amount": 30
+      },
+      {
+        "type": "ゴースト",
+        "amount": 30
+      },
+      {
+        "type": "はがね",
+        "amount": 30
+      },
+      {
+        "type": "ドラゴン",
+        "amount": 30
+      },
+      {
+        "type": "あく",
+        "amount": 30
+      },
+      {
+        "type": "フェアリー",
+        "amount": 30
+      }
+    ],
+    "imageUrl": "https://www.serebii.net/itemdex/sprites/potatosalad.png",
+    "pieces": 1,
+    "id": 28,
+    "maxPiecesOnDish": 1
+  },
+  {
+    "name": "Potato Tortilla",
+    "tastes": [
+      {
+        "flavor": "甘味",
+        "amount": 3
+      },
+      {
+        "flavor": "Salty",
+        "amount": 4
+      },
+      {
+        "flavor": "Sour",
+        "amount": 1
+      },
+      {
+        "flavor": "Bitter",
+        "amount": 3
+      },
+      {
+        "flavor": "Hot",
+        "amount": 1
+      }
+    ],
+    "powers": [
+      {
+        "type": "Catch",
+        "amount": 21
+      },
+      {
+        "type": "Raid",
+        "amount": 12
+      },
+      {
+        "type": "Encounter",
+        "amount": -3
+      }
+    ],
+    "types": [
+      {
+        "type": "かくとう",
+        "amount": 20
+      },
+      {
+        "type": "どく",
+        "amount": 20
+      },
+      {
+        "type": "いわ",
+        "amount": 20
+      },
+      {
+        "type": "ゴースト",
+        "amount": 20
+      },
+      {
+        "type": "ほのお",
+        "amount": 20
+      },
+      {
+        "type": "くさ",
+        "amount": 20
+      },
+      {
+        "type": "エスパー",
+        "amount": 20
+      },
+      {
+        "type": "ドラゴン",
+        "amount": 20
+      },
+      {
+        "type": "フェアリー",
+        "amount": 20
+      }
+    ],
+    "imageUrl": "https://www.serebii.net/itemdex/sprites/potatotortilla.png",
+    "pieces": 1,
+    "id": 24,
+    "maxPiecesOnDish": 1
+  },
+  {
+    "name": "Prosciutto",
+    "tastes": [
+      {
+        "flavor": "甘味",
+        "amount": 2
+      },
+      {
+        "flavor": "Salty",
+        "amount": 4
+      },
+      {
+        "flavor": "Sour",
+        "amount": 1
+      }
+    ],
+    "powers": [
+      {
+        "type": "Catch",
+        "amount": 4
+      },
+      {
+        "type": "Raid",
+        "amount": -1
+      },
+      {
+        "type": "Encounter",
+        "amount": 7
+      }
+    ],
+    "types": [
+      {
+        "type": "ひこう",
+        "amount": 6
+      }
+    ],
+    "imageUrl": "https://www.serebii.net/itemdex/sprites/prosciutto.png",
+    "pieces": 3,
+    "id": 16,
+    "maxPiecesOnDish": 6
+  },
+  {
+    "name": "Red Bell Pepper",
+    "tastes": [
+      {
+        "flavor": "甘味",
+        "amount": 1
+      },
+      {
+        "flavor": "Sour",
+        "amount": 1
+      },
+      {
+        "flavor": "Bitter",
+        "amount": 3
+      }
+    ],
+    "powers": [
+      {
+        "type": "Catch",
+        "amount": 4
+      },
+      {
+        "type": "Raid",
+        "amount": -1
+      },
+      {
+        "type": "Encounter",
+        "amount": 7
+      }
+    ],
+    "types": [
+      {
+        "type": "ほのお",
+        "amount": 6
+      }
+    ],
+    "imageUrl": "https://www.serebii.net/itemdex/sprites/redbellpepper.png",
+    "pieces": 3,
+    "id": 11,
+    "maxPiecesOnDish": 6
+  },
+  {
+    "name": "Red Onion",
+    "tastes": [
+      {
+        "flavor": "甘味",
+        "amount": 3
+      },
+      {
+        "flavor": "Bitter",
+        "amount": 1
+      }
+    ],
+    "powers": [
+      {
+        "type": "Catch",
+        "amount": 4
+      },
+      {
+        "type": "Raid",
+        "amount": -1
+      },
+      {
+        "type": "Encounter",
+        "amount": 7
+      }
+    ],
+    "types": [
+      {
+        "type": "ゴースト",
+        "amount": 6
+      }
+    ],
+    "imageUrl": "https://www.serebii.net/itemdex/sprites/redonion.png",
+    "pieces": 3,
+    "id": 9,
+    "maxPiecesOnDish": 6
+  },
+  {
+    "name": "Rice",
+    "tastes": [
+      {
+        "flavor": "甘味",
+        "amount": 3
+      },
+      {
+        "flavor": "Sour",
+        "amount": 1
+      }
+    ],
+    "powers": [
+      {
+        "type": "Humungo",
+        "amount": 21
+      },
+      {
+        "type": "Teensy",
+        "amount": -3
+      },
+      {
+        "type": "Encounter",
+        "amount": 12
+      }
+    ],
+    "types": [
+      {
+        "type": "ノーマル",
+        "amount": 30
+      },
+      {
+        "type": "かくとう",
+        "amount": 30
+      },
+      {
+        "type": "ひこう",
+        "amount": 30
+      },
+      {
+        "type": "ほのお",
+        "amount": 30
+      },
+      {
+        "type": "みず",
+        "amount": 30
+      },
+      {
+        "type": "くさ",
+        "amount": 30
+      }
+    ],
+    "imageUrl": "https://www.serebii.net/itemdex/sprites/rice.png",
+    "pieces": 1,
+    "id": 26,
+    "maxPiecesOnDish": 1
+  },
+  {
+    "name": "Smoked Fillet",
+    "tastes": [
+      {
+        "flavor": "甘味",
+        "amount": 1
+      },
+      {
+        "flavor": "Salty",
+        "amount": 3
+      },
+      {
+        "flavor": "Sour",
+        "amount": 2
+      },
+      {
+        "flavor": "Bitter",
+        "amount": 3
+      }
+    ],
+    "powers": [
+      {
+        "type": "Catch",
+        "amount": 4
+      },
+      {
+        "type": "Raid",
+        "amount": -1
+      },
+      {
+        "type": "Encounter",
+        "amount": 7
+      }
+    ],
+    "types": [
+      {
+        "type": "あく",
+        "amount": 6
+      }
+    ],
+    "imageUrl": "https://www.serebii.net/itemdex/sprites/smokedfillet.png",
+    "pieces": 3,
+    "id": 21,
+    "maxPiecesOnDish": 3
+  },
+  {
+    "name": "Strawberry",
+    "tastes": [
+      {
+        "flavor": "甘味",
+        "amount": 4
+      },
+      {
+        "flavor": "Sour",
+        "amount": 4
+      }
+    ],
+    "powers": [
+      {
+        "type": "Egg",
+        "amount": 4
+      },
+      {
+        "type": "Catch",
+        "amount": -1
+      },
+      {
+        "type": "Item",
+        "amount": 7
+      },
+      {
+        "type": "Humungo",
+        "amount": -5
+      }
+    ],
+    "types": [
+      {
+        "type": "かくとう",
+        "amount": 7
+      },
+      {
+        "type": "ゴースト",
+        "amount": 7
+      },
+      {
+        "type": "エスパー",
+        "amount": 7
+      }
+    ],
+    "imageUrl": "https://www.serebii.net/itemdex/sprites/strawberry.png",
+    "pieces": 3,
+    "id": 31,
+    "maxPiecesOnDish": 6
+  },
+  {
+    "name": "Tofu",
+    "tastes": [
+      {
+        "flavor": "甘味",
+        "amount": 3
+      }
+    ],
+    "powers": [
+      {
+        "type": "Catch",
+        "amount": 4
+      },
+      {
+        "type": "Raid",
+        "amount": -1
+      },
+      {
+        "type": "Encounter",
+        "amount": 7
+      }
+    ],
+    "types": [
+      {
+        "type": "ノーマル",
+        "amount": 6
+      }
+    ],
+    "imageUrl": "https://www.serebii.net/itemdex/sprites/tofu.png",
+    "pieces": 3,
+    "id": 25,
+    "maxPiecesOnDish": 3
+  },
+  {
+    "name": "Tomato",
+    "tastes": [
+      {
+        "flavor": "甘味",
+        "amount": 2
+      },
+      {
+        "flavor": "Sour",
+        "amount": 4
+      },
+      {
+        "flavor": "Bitter",
+        "amount": 1
+      }
+    ],
+    "powers": [
+      {
+        "type": "Catch",
+        "amount": 4
+      },
+      {
+        "type": "Raid",
+        "amount": -1
+      },
+      {
+        "type": "Encounter",
+        "amount": 7
+      }
+    ],
+    "types": [
+      {
+        "type": "フェアリー",
+        "amount": 6
+      }
+    ],
+    "imageUrl": "https://www.serebii.net/itemdex/sprites/tomato.png",
+    "pieces": 3,
+    "id": 4,
+    "maxPiecesOnDish": 3
+  },
+  {
+    "name": "Watercress",
+    "tastes": [
+      {
+        "flavor": "Salty",
+        "amount": 1
+      },
+      {
+        "flavor": "Sour",
+        "amount": 2
+      },
+      {
+        "flavor": "Bitter",
+        "amount": 5
+      },
+      {
+        "flavor": "Hot",
+        "amount": 1
+      }
+    ],
+    "powers": [
+      {
+        "type": "Egg",
+        "amount": 2
+      },
+      {
+        "type": "Raid",
+        "amount": 2
+      },
+      {
+        "type": "Encounter",
+        "amount": -2
+      }
+    ],
+    "types": [
+      {
+        "type": "ノーマル",
+        "amount": 1
+      },
+      {
+        "type": "かくとう",
+        "amount": 1
+      },
+      {
+        "type": "ひこう",
+        "amount": 1
+      },
+      {
+        "type": "どく",
+        "amount": 1
+      },
+      {
+        "type": "じめん",
+        "amount": 1
+      },
+      {
+        "type": "いわ",
+        "amount": 1
+      },
+      {
+        "type": "むし",
+        "amount": 1
+      },
+      {
+        "type": "ゴースト",
+        "amount": 1
+      },
+      {
+        "type": "はがね",
+        "amount": 1
+      }
+    ],
+    "imageUrl": "https://www.serebii.net/itemdex/sprites/watercress.png",
+    "pieces": 3,
+    "id": 36,
+    "maxPiecesOnDish": 3
+  },
+  {
+    "name": "Yellow Bell Pepper",
+    "tastes": [
+      {
+        "flavor": "甘味",
+        "amount": 1
+      },
+      {
+        "flavor": "Sour",
+        "amount": 1
+      },
+      {
+        "flavor": "Bitter",
+        "amount": 3
+      }
+    ],
+    "powers": [
+      {
+        "type": "Catch",
+        "amount": 4
+      },
+      {
+        "type": "Raid",
+        "amount": -1
+      },
+      {
+        "type": "Encounter",
+        "amount": 7
+      }
+    ],
+    "types": [
+      {
+        "type": "でんき",
+        "amount": 6
+      }
+    ],
+    "imageUrl": "https://www.serebii.net/itemdex/sprites/yellowbellpepper.png",
+    "pieces": 3,
+    "id": 12,
+    "maxPiecesOnDish": 6
+  }
+]
