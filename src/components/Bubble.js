@@ -1,7 +1,8 @@
 import React from "react";
 import { COLORS, shadeColor } from "../util";
+import TRANSRATE from '../data/translate_jp.json';
 
-const Bubble = ({ label,labelJP, isFlavor, isType, onClick, selected }) => {
+const Bubble = ({ label, isFlavor, isType, onClick, selected }) => {
   const backgroundColor = COLORS[label];
   let backgroundImage = "";
   let borderColor = selected ? "black" : backgroundColor;
@@ -18,7 +19,7 @@ const Bubble = ({ label,labelJP, isFlavor, isType, onClick, selected }) => {
       onClick={onClick}
       style={{ backgroundColor, borderColor, backgroundImage }}
     >
-      {labelJP}
+      {TRANSRATE[label] ? TRANSRATE[label] : label}      
     </div>
   );
 };

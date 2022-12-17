@@ -48,17 +48,17 @@
     "effects": [
       {
         "name": "Encounter Power",
-        "type": "じめん",
+        "type": "Ground",
         "level": "1"
       },
       {
         "name": "Raid Power",
-        "type": "ゴースト",
+        "type": "Ghost",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "むし",
+        "type": "Bug",
         "level": "1"
       }
     ],
@@ -71,9 +71,9 @@
         "Encounter Power": 90
       },
       "types": {
-        "じめん": 90,
-        "むし": 80,
-        "ゴースト": 85
+        "Ground": 90,
+        "Bug": 80,
+        "Ghost": 85
       }
     }
   },
@@ -91,17 +91,17 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "じめん",
+        "type": "Ground",
         "level": "2"
       },
       {
         "name": "Exp. Point Power",
-        "type": "ゴースト",
+        "type": "Ghost",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "むし",
+        "type": "Bug",
         "level": "2"
       }
     ],
@@ -114,9 +114,9 @@
         "Encounter Power": 80
       },
       "types": {
-        "じめん": 190,
-        "むし": 180,
-        "ゴースト": 185
+        "Ground": 190,
+        "Bug": 180,
+        "Ghost": 185
       }
     }
   },
@@ -134,17 +134,17 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "じめん",
+        "type": "Ground",
         "level": "2"
       },
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "むし",
+        "type": "Bug",
         "level": "2"
       }
     ],
@@ -152,14 +152,14 @@
     "location": "From man in Sandwich Shop if you have Sweet Herba Mystica",
     "rawEffectValues": {
       "powers": {
-        "タマゴパワー": 85,
+        "Egg Power": 85,
         "Title Power": 90,
         "Encounter Power": 80
       },
       "types": {
-        "じめん": 190,
-        "むし": 180,
-        "ゴースト": 185
+        "Ground": 190,
+        "Bug": 180,
+        "Ghost": 185
       }
     }
   },
@@ -177,17 +177,17 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "じめん",
+        "type": "Ground",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "ゴースト",
+        "type": "Ghost",
         "level": "2"
       },
       {
         "name": "Raid Power",
-        "type": "むし",
+        "type": "Bug",
         "level": "2"
       }
     ],
@@ -200,9 +200,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "じめん": 190,
-        "むし": 180,
-        "ゴースト": 185
+        "Ground": 190,
+        "Bug": 180,
+        "Ghost": 185
       }
     }
   },
@@ -220,17 +220,17 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "じめん",
+        "type": "Ground",
         "level": "2"
       },
       {
         "name": "Teensy Power",
-        "type": "ゴースト",
+        "type": "Ghost",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "むし",
+        "type": "Bug",
         "level": "2"
       }
     ],
@@ -243,9 +243,9 @@
         "Encounter Power": 80
       },
       "types": {
-        "じめん": 190,
-        "むし": 180,
-        "ゴースト": 185
+        "Ground": 190,
+        "Bug": 180,
+        "Ghost": 185
       }
     }
   },
@@ -263,17 +263,17 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "じめん",
+        "type": "Ground",
         "level": "2"
       },
       {
         "name": "Humungo Power",
-        "type": "ゴースト",
+        "type": "Ghost",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "むし",
+        "type": "Bug",
         "level": "2"
       }
     ],
@@ -286,9 +286,9 @@
         "Encounter Power": 80
       },
       "types": {
-        "じめん": 190,
-        "むし": 180,
-        "ゴースト": 185
+        "Ground": 190,
+        "Bug": 180,
+        "Ghost": 185
       }
     }
   },
@@ -307,17 +307,17 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "いわ",
+        "type": "Rock",
         "level": "2"
       },
       {
         "name": "Exp. Point Power",
-        "type": "こおり",
+        "type": "Ice",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "くさ",
+        "type": "Grass",
         "level": "2"
       }
     ],
@@ -330,9 +330,9 @@
         "Encounter Power": 80
       },
       "types": {
-        "いわ": 190,
-        "くさ": 180,
-        "こおり": 185
+        "Rock": 190,
+        "Grass": 180,
+        "Ice": 185
       }
     }
   },
@@ -351,17 +351,17 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "いわ",
+        "type": "Rock",
         "level": "2"
       },
       {
         "name": "Exp. Point Power",
-        "type": "こおり",
+        "type": "Ice",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "くさ",
+        "type": "Grass",
         "level": "2"
       }
     ],
@@ -374,9 +374,9 @@
         "Encounter Power": 80
       },
       "types": {
-        "いわ": 190,
-        "くさ": 180,
-        "こおり": 185
+        "Rock": 190,
+        "Grass": 180,
+        "Ice": 185
       }
     }
   },
@@ -395,17 +395,17 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "いわ",
+        "type": "Rock",
         "level": "2"
       },
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "くさ",
+        "type": "Grass",
         "level": "2"
       }
     ],
@@ -413,14 +413,14 @@
     "location": "From man in Sandwich Shop if you have Salty Herba Mystica",
     "rawEffectValues": {
       "powers": {
-        "タマゴパワー": 85,
+        "Egg Power": 85,
         "Title Power": 90,
         "Encounter Power": 80
       },
       "types": {
-        "いわ": 190,
-        "くさ": 180,
-        "こおり": 185
+        "Rock": 190,
+        "Grass": 180,
+        "Ice": 185
       }
     }
   },
@@ -439,17 +439,17 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "いわ",
+        "type": "Rock",
         "level": "2"
       },
       {
         "name": "Teensy Power",
-        "type": "こおり",
+        "type": "Ice",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "くさ",
+        "type": "Grass",
         "level": "2"
       }
     ],
@@ -462,9 +462,9 @@
         "Encounter Power": 80
       },
       "types": {
-        "いわ": 190,
-        "くさ": 180,
-        "こおり": 185
+        "Rock": 190,
+        "Grass": 180,
+        "Ice": 185
       }
     }
   },
@@ -483,17 +483,17 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "いわ",
+        "type": "Rock",
         "level": "2"
       },
       {
         "name": "Humungo Power",
-        "type": "こおり",
+        "type": "Ice",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "くさ",
+        "type": "Grass",
         "level": "2"
       }
     ],
@@ -506,9 +506,9 @@
         "Encounter Power": 80
       },
       "types": {
-        "いわ": 190,
-        "くさ": 180,
-        "こおり": 185
+        "Rock": 190,
+        "Grass": 180,
+        "Ice": 185
       }
     }
   },
@@ -525,16 +525,16 @@
     "effects": [
       {
         "name": "Catching Power",
-        "type": "かくとう",
+        "type": "Fighting",
         "level": "1"
       },
       {
         "name": "Item Drop Power",
-        "type": "エスパー",
+        "type": "Psychic",
         "level": "1"
       },
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "1"
       }
@@ -543,14 +543,14 @@
     "location": "From man in Sandwich shop",
     "rawEffectValues": {
       "powers": {
-        "タマゴパワー": 80,
+        "Egg Power": 80,
         "Catching Power": 90,
         "Item Drop Power": 85
       },
       "types": {
-        "かくとう": 90,
-        "ゴースト": 80,
-        "エスパー": 85
+        "Fighting": 90,
+        "Ghost": 80,
+        "Psychic": 85
       }
     }
   },
@@ -568,17 +568,17 @@
     "effects": [
       {
         "name": "Catching Power",
-        "type": "かくとう",
+        "type": "Fighting",
         "level": "2"
       },
       {
         "name": "Item Drop Power",
-        "type": "エスパー",
+        "type": "Psychic",
         "level": "1"
       },
       {
         "name": "Raid Power",
-        "type": "ゴースト",
+        "type": "Ghost",
         "level": "1"
       }
     ],
@@ -591,9 +591,9 @@
         "Raid Power": 80
       },
       "types": {
-        "かくとう": 190,
-        "ゴースト": 80,
-        "エスパー": 85
+        "Fighting": 190,
+        "Ghost": 80,
+        "Psychic": 85
       }
     }
   },
@@ -612,16 +612,16 @@
     "effects": [
       {
         "name": "Catching Power",
-        "type": "あく",
+        "type": "Dark",
         "level": "2"
       },
       {
         "name": "Item Drop Power",
-        "type": "じめん",
+        "type": "Ground",
         "level": "2"
       },
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "1"
       }
@@ -630,14 +630,14 @@
     "location": "From man in Sandwich shop",
     "rawEffectValues": {
       "powers": {
-        "タマゴパワー": 80,
+        "Egg Power": 80,
         "Catching Power": 90,
         "Item Drop Power": 85
       },
       "types": {
-        "かくとう": 80,
-        "じめん": 185,
-        "あく": 190
+        "Fighting": 80,
+        "Ground": 185,
+        "Dark": 190
       }
     }
   },
@@ -657,17 +657,17 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "あく",
+        "type": "Dark",
         "level": "2"
       },
       {
         "name": "Catching Power",
-        "type": "じめん",
+        "type": "Ground",
         "level": "2"
       },
       {
         "name": "Item Drop Power",
-        "type": "かくとう",
+        "type": "Fighting",
         "level": "2"
       }
     ],
@@ -680,9 +680,9 @@
         "Title Power": 90
       },
       "types": {
-        "かくとう": 180,
-        "じめん": 185,
-        "あく": 190
+        "Fighting": 180,
+        "Ground": 185,
+        "Dark": 190
       }
     }
   },
@@ -698,18 +698,18 @@
     ],
     "effects": [
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "1"
       },
       {
         "name": "Item Drop Power",
-        "type": "でんき",
+        "type": "Electric",
         "level": "1"
       },
       {
         "name": "Raid Power",
-        "type": "むし",
+        "type": "Bug",
         "level": "1"
       }
     ],
@@ -717,14 +717,14 @@
     "location": "From man in Sandwich shop",
     "rawEffectValues": {
       "powers": {
-        "タマゴパワー": 90,
+        "Egg Power": 90,
         "Item Drop Power": 85,
         "Raid Power": 80
       },
       "types": {
-        "ノーマル": 90,
-        "むし": 80,
-        "でんき": 85
+        "Normal": 90,
+        "Bug": 80,
+        "Electric": 85
       }
     }
   },
@@ -741,18 +741,18 @@
     ],
     "effects": [
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "2"
       },
       {
         "name": "Raid Power",
-        "type": "でんき",
+        "type": "Electric",
         "level": "1"
       },
       {
         "name": "Exp. Point Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "1"
       }
     ],
@@ -760,14 +760,14 @@
     "location": "From man in Sandwich shop",
     "rawEffectValues": {
       "powers": {
-        "タマゴパワー": 90,
+        "Egg Power": 90,
         "Exp. Point Power": 80,
         "Raid Power": 85
       },
       "types": {
-        "ノーマル": 80,
-        "むし": 190,
-        "でんき": 85
+        "Normal": 80,
+        "Bug": 190,
+        "Electric": 85
       }
     }
   },
@@ -785,18 +785,18 @@
     ],
     "effects": [
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "2"
       },
       {
         "name": "Raid Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "2"
       },
       {
         "name": "Item Drop Power",
-        "type": "むし",
+        "type": "Bug",
         "level": "1"
       }
     ],
@@ -804,14 +804,14 @@
     "location": "From man in Sandwich shop",
     "rawEffectValues": {
       "powers": {
-        "タマゴパワー": 90,
+        "Egg Power": 90,
         "Item Drop Power": 80,
         "Raid Power": 85
       },
       "types": {
-        "ノーマル": 185,
-        "むし": 80,
-        "でんき": 190
+        "Normal": 185,
+        "Bug": 80,
+        "Electric": 190
       }
     }
   },
@@ -831,17 +831,17 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "でんき",
+        "type": "Electric",
         "level": "2"
       },
       {
         "name": "Raid Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "2"
       },
       {
         "name": "Item Drop Power",
-        "type": "むし",
+        "type": "Bug",
         "level": "2"
       }
     ],
@@ -854,9 +854,9 @@
         "Title Power": 90
       },
       "types": {
-        "ノーマル": 185,
-        "むし": 180,
-        "でんき": 190
+        "Normal": 185,
+        "Bug": 180,
+        "Electric": 190
       }
     }
   },
@@ -873,17 +873,17 @@
     "effects": [
       {
         "name": "Teensy Power",
-        "type": "かくとう",
+        "type": "Fighting",
         "level": "1"
       },
       {
         "name": "Encounter Power",
-        "type": "ほのお",
+        "type": "Fire",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "ゴースト",
+        "type": "Ghost",
         "level": "1"
       }
     ],
@@ -896,9 +896,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "かくとう": 90,
-        "ゴースト": 80,
-        "ほのお": 85
+        "Fighting": 90,
+        "Ghost": 80,
+        "Fire": 85
       }
     }
   },
@@ -916,17 +916,17 @@
     "effects": [
       {
         "name": "Item Drop Power",
-        "type": "かくとう",
+        "type": "Fighting",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "ほのお",
+        "type": "Fire",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "ゴースト",
+        "type": "Ghost",
         "level": "1"
       }
     ],
@@ -939,9 +939,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "かくとう": 190,
-        "ゴースト": 80,
-        "ほのお": 85
+        "Fighting": 190,
+        "Ghost": 80,
+        "Fire": 85
       }
     }
   },
@@ -960,17 +960,17 @@
     "effects": [
       {
         "name": "Item Drop Power",
-        "type": "かくとう",
+        "type": "Fighting",
         "level": "2"
       },
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "2"
       },
       {
         "name": "Catching Power",
-        "type": "ほのお",
+        "type": "Fire",
         "level": "1"
       }
     ],
@@ -978,14 +978,14 @@
     "location": "From man in Sandwich shop",
     "rawEffectValues": {
       "powers": {
-        "タマゴパワー": 85,
+        "Egg Power": 85,
         "Catching Power": 80,
         "Item Drop Power": 90
       },
       "types": {
-        "かくとう": 190,
-        "ほのお": 80,
-        "くさ": 185
+        "Fighting": 190,
+        "Fire": 80,
+        "Grass": 185
       }
     }
   },
@@ -1005,16 +1005,16 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "かくとう",
+        "type": "Fighting",
         "level": "2"
       },
       {
         "name": "Teensy Power",
-        "type": "くさ",
+        "type": "Grass",
         "level": "2"
       },
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "2"
       }
@@ -1023,14 +1023,14 @@
     "location": "From man in Sandwich shop if you have Sour Herba Mystica",
     "rawEffectValues": {
       "powers": {
-        "タマゴパワー": 80,
+        "Egg Power": 80,
         "Title Power": 90,
         "Teensy Power": 85
       },
       "types": {
-        "かくとう": 190,
-        "ほのお": 180,
-        "くさ": 185
+        "Fighting": 190,
+        "Fire": 180,
+        "Grass": 185
       }
     }
   },
@@ -1047,16 +1047,16 @@
     "effects": [
       {
         "name": "Item Drop Power",
-        "type": "かくとう",
+        "type": "Fighting",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "いわ",
+        "type": "Rock",
         "level": "1"
       },
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "1"
       }
@@ -1065,14 +1065,14 @@
     "location": "From man in Sandwich shop",
     "rawEffectValues": {
       "powers": {
-        "タマゴパワー": 80,
+        "Egg Power": 80,
         "Catching Power": 85,
         "Item Drop Power": 90
       },
       "types": {
-        "かくとう": 90,
-        "どく": 80,
-        "いわ": 85
+        "Fighting": 90,
+        "Poison": 80,
+        "Rock": 85
       }
     }
   },
@@ -1089,18 +1089,18 @@
     ],
     "effects": [
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "2"
       },
       {
         "name": "Raid Power",
-        "type": "いわ",
+        "type": "Rock",
         "level": "1"
       },
       {
         "name": "Item Drop Power",
-        "type": "どく",
+        "type": "Poison",
         "level": "1"
       }
     ],
@@ -1108,14 +1108,14 @@
     "location": "From man in Sandwich shop",
     "rawEffectValues": {
       "powers": {
-        "タマゴパワー": 90,
+        "Egg Power": 90,
         "Item Drop Power": 80,
         "Raid Power": 85
       },
       "types": {
-        "かくとう": 190,
-        "どく": 80,
-        "いわ": 85
+        "Fighting": 190,
+        "Poison": 80,
+        "Rock": 85
       }
     }
   },
@@ -1133,18 +1133,18 @@
     ],
     "effects": [
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "2"
       },
       {
         "name": "Item Drop Power",
-        "type": "どく",
+        "type": "Poison",
         "level": "2"
       },
       {
         "name": "Raid Power",
-        "type": "かくとう",
+        "type": "Fighting",
         "level": "1"
       }
     ],
@@ -1152,14 +1152,14 @@
     "location": "From man in Sandwich shop",
     "rawEffectValues": {
       "powers": {
-        "タマゴパワー": 90,
+        "Egg Power": 90,
         "Item Drop Power": 85,
         "Raid Power": 80
       },
       "types": {
-        "かくとう": 80,
-        "どく": 185,
-        "むし": 190
+        "Fighting": 80,
+        "Poison": 185,
+        "Bug": 190
       }
     }
   },
@@ -1179,17 +1179,17 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "むし",
+        "type": "Bug",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "どく",
+        "type": "Poison",
         "level": "2"
       },
       {
         "name": "Item Drop Power",
-        "type": "かくとう",
+        "type": "Fighting",
         "level": "2"
       }
     ],
@@ -1202,9 +1202,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "かくとう": 180,
-        "どく": 185,
-        "むし": 190
+        "Fighting": 180,
+        "Poison": 185,
+        "Bug": 190
       }
     }
   },
@@ -1221,17 +1221,17 @@
     "effects": [
       {
         "name": "Encounter Power",
-        "type": "かくとう",
+        "type": "Fighting",
         "level": "1"
       },
       {
         "name": "Exp. Point Power",
-        "type": "ゴースト",
+        "type": "Ghost",
         "level": "1"
       },
       {
         "name": "Raid Power",
-        "type": "じめん",
+        "type": "Ground",
         "level": "1"
       }
     ],
@@ -1244,9 +1244,9 @@
         "Encounter Power": 90
       },
       "types": {
-        "かくとう": 90,
-        "じめん": 80,
-        "ゴースト": 85
+        "Fighting": 90,
+        "Ground": 80,
+        "Ghost": 85
       }
     }
   },
@@ -1264,17 +1264,17 @@
     "effects": [
       {
         "name": "Encounter Power",
-        "type": "じめん",
+        "type": "Ground",
         "level": "2"
       },
       {
         "name": "Exp. Point Power",
-        "type": "ゴースト",
+        "type": "Ghost",
         "level": "1"
       },
       {
         "name": "Raid Power",
-        "type": "かくとう",
+        "type": "Fighting",
         "level": "1"
       }
     ],
@@ -1287,9 +1287,9 @@
         "Encounter Power": 90
       },
       "types": {
-        "かくとう": 80,
-        "じめん": 190,
-        "ゴースト": 85
+        "Fighting": 80,
+        "Ground": 190,
+        "Ghost": 85
       }
     }
   },
@@ -1308,17 +1308,17 @@
     "effects": [
       {
         "name": "Exp. Point Power",
-        "type": "じめん",
+        "type": "Ground",
         "level": "2"
       },
       {
         "name": "Raid Power",
-        "type": "ゴースト",
+        "type": "Ghost",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "かくとう",
+        "type": "Fighting",
         "level": "1"
       }
     ],
@@ -1331,9 +1331,9 @@
         "Encounter Power": 80
       },
       "types": {
-        "かくとう": 80,
-        "じめん": 190,
-        "ゴースト": 185
+        "Fighting": 80,
+        "Ground": 190,
+        "Ghost": 185
       }
     }
   },
@@ -1353,17 +1353,17 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "じめん",
+        "type": "Ground",
         "level": "2"
       },
       {
         "name": "Exp. Point Power",
-        "type": "かくとう",
+        "type": "Fighting",
         "level": "2"
       },
       {
         "name": "Raid Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "2"
       }
     ],
@@ -1376,9 +1376,9 @@
         "Title Power": 90
       },
       "types": {
-        "ノーマル": 180,
-        "かくとう": 185,
-        "じめん": 190
+        "Normal": 180,
+        "Fighting": 185,
+        "Ground": 190
       }
     }
   },
@@ -1396,17 +1396,17 @@
     "effects": [
       {
         "name": "Humungo Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "1"
       },
       {
         "name": "Encounter Power",
-        "type": "ほのお",
+        "type": "Fire",
         "level": "1"
       },
       {
         "name": "Raid Power",
-        "type": "かくとう",
+        "type": "Fighting",
         "level": "1"
       }
     ],
@@ -1419,9 +1419,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "ノーマル": 90,
-        "かくとう": 80,
-        "ほのお": 85
+        "Normal": 90,
+        "Fighting": 80,
+        "Fire": 85
       }
     }
   },
@@ -1440,17 +1440,17 @@
     "effects": [
       {
         "name": "Humungo Power",
-        "type": "くさ",
+        "type": "Grass",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "かくとう",
+        "type": "Fighting",
         "level": "1"
       },
       {
         "name": "Item Drop Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "1"
       }
     ],
@@ -1463,9 +1463,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "ノーマル": 80,
-        "かくとう": 85,
-        "くさ": 190
+        "Normal": 80,
+        "Fighting": 85,
+        "Grass": 190
       }
     }
   },
@@ -1485,17 +1485,17 @@
     "effects": [
       {
         "name": "Humungo Power",
-        "type": "くさ",
+        "type": "Grass",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "2"
       },
       {
         "name": "Item Drop Power",
-        "type": "フェアリー",
+        "type": "Fairy",
         "level": "1"
       }
     ],
@@ -1508,9 +1508,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "ノーマル": 185,
-        "くさ": 190,
-        "フェアリー": 80
+        "Normal": 185,
+        "Grass": 190,
+        "Fairy": 80
       }
     }
   },
@@ -1531,17 +1531,17 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "くさ",
+        "type": "Grass",
         "level": "2"
       },
       {
         "name": "Humungo Power",
-        "type": "フェアリー",
+        "type": "Fairy",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "2"
       }
     ],
@@ -1554,9 +1554,9 @@
         "Encounter Power": 80
       },
       "types": {
-        "ノーマル": 180,
-        "くさ": 190,
-        "フェアリー": 185
+        "Normal": 180,
+        "Grass": 190,
+        "Fairy": 185
       }
     }
   },
@@ -1575,16 +1575,16 @@
     "effects": [
       {
         "name": "Catching Power",
-        "type": "ひこう",
+        "type": "Flying",
         "level": "1"
       },
       {
         "name": "Item Drop Power",
-        "type": "こおり",
+        "type": "Ice",
         "level": "1"
       },
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "1"
       }
@@ -1593,14 +1593,14 @@
     "location": "From man in Sandwich shop",
     "rawEffectValues": {
       "powers": {
-        "タマゴパワー": 80,
+        "Egg Power": 80,
         "Catching Power": 90,
         "Item Drop Power": 85
       },
       "types": {
-        "ひこう": 90,
-        "はがね": 80,
-        "こおり": 85
+        "Flying": 90,
+        "Steel": 80,
+        "Ice": 85
       }
     }
   },
@@ -1620,16 +1620,16 @@
     "effects": [
       {
         "name": "Catching Power",
-        "type": "ひこう",
+        "type": "Flying",
         "level": "2"
       },
       {
         "name": "Item Drop Power",
-        "type": "こおり",
+        "type": "Ice",
         "level": "1"
       },
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "1"
       }
@@ -1638,14 +1638,14 @@
     "location": "From man in Sandwich shop",
     "rawEffectValues": {
       "powers": {
-        "タマゴパワー": 80,
+        "Egg Power": 80,
         "Catching Power": 90,
         "Item Drop Power": 85
       },
       "types": {
-        "ひこう": 190,
-        "はがね": 80,
-        "こおり": 85
+        "Flying": 190,
+        "Steel": 80,
+        "Ice": 85
       }
     }
   },
@@ -1666,16 +1666,16 @@
     "effects": [
       {
         "name": "Item Drop Power",
-        "type": "ひこう",
+        "type": "Flying",
         "level": "2"
       },
       {
         "name": "Catching Power",
-        "type": "こおり",
+        "type": "Ice",
         "level": "2"
       },
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "1"
       }
@@ -1684,14 +1684,14 @@
     "location": "From man in Sandwich shop",
     "rawEffectValues": {
       "powers": {
-        "タマゴパワー": 80,
+        "Egg Power": 80,
         "Catching Power": 85,
         "Item Drop Power": 90
       },
       "types": {
-        "ひこう": 190,
-        "はがね": 80,
-        "こおり": 185
+        "Flying": 190,
+        "Steel": 80,
+        "Ice": 185
       }
     }
   },
@@ -1713,17 +1713,17 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "ひこう",
+        "type": "Flying",
         "level": "2"
       },
       {
         "name": "Item Drop Power",
-        "type": "どく",
+        "type": "Poison",
         "level": "2"
       },
       {
         "name": "Catching Power",
-        "type": "かくとう",
+        "type": "Fighting",
         "level": "2"
       }
     ],
@@ -1736,9 +1736,9 @@
         "Title Power": 90
       },
       "types": {
-        "かくとう": 180,
-        "ひこう": 190,
-        "どく": 185
+        "Fighting": 180,
+        "Flying": 190,
+        "Poison": 185
       }
     }
   },
@@ -1755,18 +1755,18 @@
     ],
     "effects": [
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "1"
       },
       {
         "name": "Encounter Power",
-        "type": "かくとう",
+        "type": "Fighting",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "ドラゴン",
+        "type": "Dragon",
         "level": "1"
       }
     ],
@@ -1774,14 +1774,14 @@
     "location": "From man in Sandwich shop",
     "rawEffectValues": {
       "powers": {
-        "タマゴパワー": 90,
+        "Egg Power": 90,
         "Catching Power": 80,
         "Encounter Power": 85
       },
       "types": {
-        "かくとう": 85,
-        "こおり": 90,
-        "ドラゴン": 80
+        "Fighting": 85,
+        "Ice": 90,
+        "Dragon": 80
       }
     }
   },
@@ -1800,17 +1800,17 @@
     "effects": [
       {
         "name": "Catching Power",
-        "type": "じめん",
+        "type": "Ground",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "あく",
+        "type": "Dark",
         "level": "1"
       },
       {
         "name": "Item Drop Power",
-        "type": "みず",
+        "type": "Water",
         "level": "1"
       }
     ],
@@ -1823,9 +1823,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "じめん": 190,
-        "みず": 80,
-        "あく": 85
+        "Ground": 190,
+        "Water": 80,
+        "Dark": 85
       }
     }
   },
@@ -1845,17 +1845,17 @@
     "effects": [
       {
         "name": "Catching Power",
-        "type": "いわ",
+        "type": "Rock",
         "level": "2"
       },
       {
         "name": "Item Drop Power",
-        "type": "みず",
+        "type": "Water",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "じめん",
+        "type": "Ground",
         "level": "1"
       }
     ],
@@ -1868,9 +1868,9 @@
         "Encounter Power": 80
       },
       "types": {
-        "じめん": 80,
-        "いわ": 190,
-        "みず": 185
+        "Ground": 80,
+        "Rock": 190,
+        "Water": 185
       }
     }
   },
@@ -1891,17 +1891,17 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "いわ",
+        "type": "Rock",
         "level": "2"
       },
       {
         "name": "Catching Power",
-        "type": "みず",
+        "type": "Water",
         "level": "2"
       },
       {
         "name": "Item Drop Power",
-        "type": "じめん",
+        "type": "Ground",
         "level": "2"
       }
     ],
@@ -1914,9 +1914,9 @@
         "Title Power": 90
       },
       "types": {
-        "じめん": 180,
-        "いわ": 190,
-        "みず": 185
+        "Ground": 180,
+        "Rock": 190,
+        "Water": 185
       }
     }
   },
@@ -1934,17 +1934,17 @@
     "effects": [
       {
         "name": "Exp. Point Power",
-        "type": "ドラゴン",
+        "type": "Dragon",
         "level": "1"
       },
       {
         "name": "Encounter Power",
-        "type": "でんき",
+        "type": "Electric",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "あく",
+        "type": "Dark",
         "level": "1"
       }
     ],
@@ -1957,9 +1957,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "でんき": 85,
-        "ドラゴン": 90,
-        "あく": 80
+        "Electric": 85,
+        "Dragon": 90,
+        "Dark": 80
       }
     }
   },
@@ -1978,17 +1978,17 @@
     "effects": [
       {
         "name": "Encounter Power",
-        "type": "ドラゴン",
+        "type": "Dragon",
         "level": "2"
       },
       {
         "name": "Catching Power",
-        "type": "フェアリー",
+        "type": "Fairy",
         "level": "1"
       },
       {
         "name": "Exp. Point Power",
-        "type": "あく",
+        "type": "Dark",
         "level": "1"
       }
     ],
@@ -2001,9 +2001,9 @@
         "Encounter Power": 90
       },
       "types": {
-        "ドラゴン": 190,
-        "あく": 80,
-        "フェアリー": 85
+        "Dragon": 190,
+        "Dark": 80,
+        "Fairy": 85
       }
     }
   },
@@ -2023,17 +2023,17 @@
     "effects": [
       {
         "name": "Exp. Point Power",
-        "type": "くさ",
+        "type": "Grass",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "あく",
+        "type": "Dark",
         "level": "2"
       },
       {
         "name": "Catching Power",
-        "type": "ドラゴン",
+        "type": "Dragon",
         "level": "1"
       }
     ],
@@ -2046,9 +2046,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "くさ": 190,
-        "ドラゴン": 80,
-        "あく": 185
+        "Grass": 190,
+        "Dragon": 80,
+        "Dark": 185
       }
     }
   },
@@ -2069,17 +2069,17 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "くさ",
+        "type": "Grass",
         "level": "2"
       },
       {
         "name": "Exp. Point Power",
-        "type": "あく",
+        "type": "Dark",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "ドラゴン",
+        "type": "Dragon",
         "level": "2"
       }
     ],
@@ -2092,9 +2092,9 @@
         "Encounter Power": 80
       },
       "types": {
-        "くさ": 190,
-        "ドラゴン": 180,
-        "あく": 185
+        "Grass": 190,
+        "Dragon": 180,
+        "Dark": 185
       }
     }
   },
@@ -2112,17 +2112,17 @@
     "effects": [
       {
         "name": "Encounter Power",
-        "type": "どく",
+        "type": "Poison",
         "level": "1"
       },
       {
         "name": "Raid Power",
-        "type": "いわ",
+        "type": "Rock",
         "level": "1"
       },
       {
         "name": "Humungo Power",
-        "type": "じめん",
+        "type": "Ground",
         "level": "1"
       }
     ],
@@ -2135,9 +2135,9 @@
         "Encounter Power": 90
       },
       "types": {
-        "どく": 90,
-        "じめん": 80,
-        "いわ": 85
+        "Poison": 90,
+        "Ground": 80,
+        "Rock": 85
       }
     }
   },
@@ -2156,17 +2156,17 @@
     "effects": [
       {
         "name": "Encounter Power",
-        "type": "どく",
+        "type": "Poison",
         "level": "2"
       },
       {
         "name": "Humungo Power",
-        "type": "いわ",
+        "type": "Rock",
         "level": "1"
       },
       {
         "name": "Raid Power",
-        "type": "じめん",
+        "type": "Ground",
         "level": "1"
       }
     ],
@@ -2179,9 +2179,9 @@
         "Encounter Power": 90
       },
       "types": {
-        "どく": 190,
-        "じめん": 80,
-        "いわ": 85
+        "Poison": 190,
+        "Ground": 80,
+        "Rock": 85
       }
     }
   },
@@ -2201,17 +2201,17 @@
     "effects": [
       {
         "name": "Encounter Power",
-        "type": "どく",
+        "type": "Poison",
         "level": "2"
       },
       {
         "name": "Exp. Point Power",
-        "type": "ほのお",
+        "type": "Fire",
         "level": "2"
       },
       {
         "name": "Humungo Power",
-        "type": "でんき",
+        "type": "Electric",
         "level": "1"
       }
     ],
@@ -2224,9 +2224,9 @@
         "Encounter Power": 90
       },
       "types": {
-        "どく": 190,
-        "ほのお": 185,
-        "でんき": 80
+        "Poison": 190,
+        "Fire": 185,
+        "Electric": 80
       }
     }
   },
@@ -2247,17 +2247,17 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "どく",
+        "type": "Poison",
         "level": "2"
       },
       {
         "name": "Exp. Point Power",
-        "type": "でんき",
+        "type": "Electric",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "2"
       }
     ],
@@ -2270,9 +2270,9 @@
         "Encounter Power": 80
       },
       "types": {
-        "ノーマル": 180,
-        "どく": 190,
-        "でんき": 185
+        "Normal": 180,
+        "Poison": 190,
+        "Electric": 185
       }
     }
   },
@@ -2291,17 +2291,17 @@
     "effects": [
       {
         "name": "Teensy Power",
-        "type": "むし",
+        "type": "Bug",
         "level": "1"
       },
       {
         "name": "Encounter Power",
-        "type": "はがね",
+        "type": "Steel",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "ゴースト",
+        "type": "Ghost",
         "level": "1"
       }
     ],
@@ -2314,9 +2314,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "むし": 90,
-        "ゴースト": 80,
-        "はがね": 85
+        "Bug": 90,
+        "Ghost": 80,
+        "Steel": 85
       }
     }
   },
@@ -2336,17 +2336,17 @@
     "effects": [
       {
         "name": "Catching Power",
-        "type": "ドラゴン",
+        "type": "Dragon",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "ゴースト",
+        "type": "Ghost",
         "level": "1"
       },
       {
         "name": "Humungo Power",
-        "type": "むし",
+        "type": "Bug",
         "level": "1"
       }
     ],
@@ -2359,9 +2359,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "むし": 80,
-        "ゴースト": 85,
-        "ドラゴン": 190
+        "Bug": 80,
+        "Ghost": 85,
+        "Dragon": 190
       }
     }
   },
@@ -2382,17 +2382,17 @@
     "effects": [
       {
         "name": "Catching Power",
-        "type": "ゴースト",
+        "type": "Ghost",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "むし",
+        "type": "Bug",
         "level": "2"
       },
       {
         "name": "Humungo Power",
-        "type": "ドラゴン",
+        "type": "Dragon",
         "level": "1"
       }
     ],
@@ -2405,9 +2405,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "むし": 185,
-        "ゴースト": 190,
-        "ドラゴン": 80
+        "Bug": 185,
+        "Ghost": 190,
+        "Dragon": 80
       }
     }
   },
@@ -2429,17 +2429,17 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "ゴースト",
+        "type": "Ghost",
         "level": "2"
       },
       {
         "name": "Catching Power",
-        "type": "ドラゴン",
+        "type": "Dragon",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "2"
       }
     ],
@@ -2452,9 +2452,9 @@
         "Encounter Power": 80
       },
       "types": {
-        "ノーマル": 180,
-        "ゴースト": 190,
-        "ドラゴン": 185
+        "Normal": 180,
+        "Ghost": 190,
+        "Dragon": 185
       }
     }
   },
@@ -2473,17 +2473,17 @@
     "effects": [
       {
         "name": "Humungo Power",
-        "type": "エスパー",
+        "type": "Psychic",
         "level": "1"
       },
       {
         "name": "Exp. Point Power",
-        "type": "かくとう",
+        "type": "Fighting",
         "level": "1"
       },
       {
         "name": "Encounter Power",
-        "type": "みず",
+        "type": "Water",
         "level": "1"
       }
     ],
@@ -2496,9 +2496,9 @@
         "Encounter Power": 80
       },
       "types": {
-        "かくとう": 85,
-        "みず": 80,
-        "エスパー": 90
+        "Fighting": 85,
+        "Water": 80,
+        "Psychic": 90
       }
     }
   },
@@ -2518,17 +2518,17 @@
     "effects": [
       {
         "name": "Humungo Power",
-        "type": "エスパー",
+        "type": "Psychic",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "かくとう",
+        "type": "Fighting",
         "level": "1"
       },
       {
         "name": "Exp. Point Power",
-        "type": "みず",
+        "type": "Water",
         "level": "1"
       }
     ],
@@ -2541,9 +2541,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "かくとう": 85,
-        "みず": 80,
-        "エスパー": 190
+        "Fighting": 85,
+        "Water": 80,
+        "Psychic": 190
       }
     }
   },
@@ -2564,17 +2564,17 @@
     "effects": [
       {
         "name": "Humungo Power",
-        "type": "エスパー",
+        "type": "Psychic",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "じめん",
+        "type": "Ground",
         "level": "2"
       },
       {
         "name": "Exp. Point Power",
-        "type": "かくとう",
+        "type": "Fighting",
         "level": "1"
       }
     ],
@@ -2587,9 +2587,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "かくとう": 80,
-        "じめん": 185,
-        "エスパー": 190
+        "Fighting": 80,
+        "Ground": 185,
+        "Psychic": 190
       }
     }
   },
@@ -2611,17 +2611,17 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "エスパー",
+        "type": "Psychic",
         "level": "2"
       },
       {
         "name": "Teensy Power",
-        "type": "かくとう",
+        "type": "Fighting",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "2"
       }
     ],
@@ -2634,9 +2634,9 @@
         "Encounter Power": 80
       },
       "types": {
-        "ノーマル": 180,
-        "かくとう": 185,
-        "エスパー": 190
+        "Normal": 180,
+        "Fighting": 185,
+        "Psychic": 190
       }
     }
   },
@@ -2655,17 +2655,17 @@
     "effects": [
       {
         "name": "Encounter Power",
-        "type": "ひこう",
+        "type": "Flying",
         "level": "1"
       },
       {
         "name": "Exp. Point Power",
-        "type": "はがね",
+        "type": "Steel",
         "level": "1"
       },
       {
         "name": "Raid Power",
-        "type": "いわ",
+        "type": "Rock",
         "level": "1"
       }
     ],
@@ -2678,9 +2678,9 @@
         "Encounter Power": 90
       },
       "types": {
-        "ひこう": 90,
-        "いわ": 80,
-        "はがね": 85
+        "Flying": 90,
+        "Rock": 80,
+        "Steel": 85
       }
     }
   },
@@ -2700,17 +2700,17 @@
     "effects": [
       {
         "name": "Encounter Power",
-        "type": "ひこう",
+        "type": "Flying",
         "level": "2"
       },
       {
         "name": "Exp. Point Power",
-        "type": "はがね",
+        "type": "Steel",
         "level": "1"
       },
       {
         "name": "Raid Power",
-        "type": "いわ",
+        "type": "Rock",
         "level": "1"
       }
     ],
@@ -2723,9 +2723,9 @@
         "Encounter Power": 90
       },
       "types": {
-        "ひこう": 190,
-        "いわ": 80,
-        "はがね": 85
+        "Flying": 190,
+        "Rock": 80,
+        "Steel": 85
       }
     }
   },
@@ -2746,17 +2746,17 @@
     "effects": [
       {
         "name": "Encounter Power",
-        "type": "ひこう",
+        "type": "Flying",
         "level": "2"
       },
       {
         "name": "Exp. Point Power",
-        "type": "はがね",
+        "type": "Steel",
         "level": "2"
       },
       {
         "name": "Raid Power",
-        "type": "いわ",
+        "type": "Rock",
         "level": "1"
       }
     ],
@@ -2769,9 +2769,9 @@
         "Encounter Power": 90
       },
       "types": {
-        "ひこう": 190,
-        "いわ": 80,
-        "はがね": 185
+        "Flying": 190,
+        "Rock": 80,
+        "Steel": 185
       }
     }
   },
@@ -2793,17 +2793,17 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "ひこう",
+        "type": "Flying",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "いわ",
+        "type": "Rock",
         "level": "2"
       },
       {
         "name": "Exp. Point Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "2"
       }
     ],
@@ -2816,9 +2816,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "ノーマル": 180,
-        "ひこう": 190,
-        "いわ": 185
+        "Normal": 180,
+        "Flying": 190,
+        "Rock": 185
       }
     }
   },
@@ -2837,17 +2837,17 @@
     "effects": [
       {
         "name": "Encounter Power",
-        "type": "ゴースト",
+        "type": "Ghost",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "くさ",
+        "type": "Grass",
         "level": "1"
       },
       {
         "name": "Item Drop Power",
-        "type": "ほのお",
+        "type": "Fire",
         "level": "1"
       }
     ],
@@ -2860,9 +2860,9 @@
         "Encounter Power": 90
       },
       "types": {
-        "ゴースト": 90,
-        "ほのお": 80,
-        "くさ": 85
+        "Ghost": 90,
+        "Fire": 80,
+        "Grass": 85
       }
     }
   },
@@ -2882,17 +2882,17 @@
     "effects": [
       {
         "name": "Humungo Power",
-        "type": "ゴースト",
+        "type": "Ghost",
         "level": "2"
       },
       {
         "name": "Catching Power",
-        "type": "くさ",
+        "type": "Grass",
         "level": "1"
       },
       {
         "name": "Encounter Power",
-        "type": "ほのお",
+        "type": "Fire",
         "level": "1"
       }
     ],
@@ -2905,9 +2905,9 @@
         "Encounter Power": 80
       },
       "types": {
-        "ゴースト": 190,
-        "ほのお": 80,
-        "くさ": 85
+        "Ghost": 190,
+        "Fire": 80,
+        "Grass": 85
       }
     }
   },
@@ -2928,17 +2928,17 @@
     "effects": [
       {
         "name": "Humungo Power",
-        "type": "ドラゴン",
+        "type": "Dragon",
         "level": "2"
       },
       {
         "name": "Catching Power",
-        "type": "ほのお",
+        "type": "Fire",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "ゴースト",
+        "type": "Ghost",
         "level": "1"
       }
     ],
@@ -2951,9 +2951,9 @@
         "Encounter Power": 80
       },
       "types": {
-        "ゴースト": 80,
-        "ほのお": 185,
-        "ドラゴン": 190
+        "Ghost": 80,
+        "Fire": 185,
+        "Dragon": 190
       }
     }
   },
@@ -2975,17 +2975,17 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "ドラゴン",
+        "type": "Dragon",
         "level": "2"
       },
       {
         "name": "Item Drop Power",
-        "type": "ゴースト",
+        "type": "Ghost",
         "level": "2"
       },
       {
         "name": "Catching Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "2"
       }
     ],
@@ -2998,9 +2998,9 @@
         "Title Power": 90
       },
       "types": {
-        "ノーマル": 180,
-        "ゴースト": 185,
-        "ドラゴン": 190
+        "Normal": 180,
+        "Ghost": 185,
+        "Dragon": 190
       }
     }
   },
@@ -3019,17 +3019,17 @@
     "effects": [
       {
         "name": "Catching Power",
-        "type": "むし",
+        "type": "Bug",
         "level": "1"
       },
       {
         "name": "Encounter Power",
-        "type": "かくとう",
+        "type": "Fighting",
         "level": "1"
       },
       {
         "name": "Raid Power",
-        "type": "ドラゴン",
+        "type": "Dragon",
         "level": "1"
       }
     ],
@@ -3042,9 +3042,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "かくとう": 85,
-        "むし": 90,
-        "ドラゴン": 80
+        "Fighting": 85,
+        "Bug": 90,
+        "Dragon": 80
       }
     }
   },
@@ -3064,17 +3064,17 @@
     "effects": [
       {
         "name": "Catching Power",
-        "type": "ドラゴン",
+        "type": "Dragon",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "ほのお",
+        "type": "Fire",
         "level": "1"
       },
       {
         "name": "Item Drop Power",
-        "type": "どく",
+        "type": "Poison",
         "level": "1"
       }
     ],
@@ -3087,9 +3087,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "どく": 80,
-        "ほのお": 85,
-        "ドラゴン": 190
+        "Poison": 80,
+        "Fire": 85,
+        "Dragon": 190
       }
     }
   },
@@ -3110,17 +3110,17 @@
     "effects": [
       {
         "name": "Catching Power",
-        "type": "ドラゴン",
+        "type": "Dragon",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "かくとう",
+        "type": "Fighting",
         "level": "2"
       },
       {
         "name": "Item Drop Power",
-        "type": "どく",
+        "type": "Poison",
         "level": "1"
       }
     ],
@@ -3133,9 +3133,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "かくとう": 185,
-        "どく": 80,
-        "ドラゴン": 190
+        "Fighting": 185,
+        "Poison": 80,
+        "Dragon": 190
       }
     }
   },
@@ -3157,17 +3157,17 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "ドラゴン",
+        "type": "Dragon",
         "level": "2"
       },
       {
         "name": "Humungo Power",
-        "type": "どく",
+        "type": "Poison",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "2"
       }
     ],
@@ -3180,9 +3180,9 @@
         "Encounter Power": 80
       },
       "types": {
-        "ノーマル": 180,
-        "どく": 185,
-        "ドラゴン": 190
+        "Normal": 180,
+        "Poison": 185,
+        "Dragon": 190
       }
     }
   },
@@ -3202,17 +3202,17 @@
     "effects": [
       {
         "name": "Teensy Power",
-        "type": "いわ",
+        "type": "Rock",
         "level": "1"
       },
       {
         "name": "Encounter Power",
-        "type": "フェアリー",
+        "type": "Fairy",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "くさ",
+        "type": "Grass",
         "level": "1"
       }
     ],
@@ -3225,9 +3225,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "いわ": 90,
-        "くさ": 80,
-        "フェアリー": 85
+        "Rock": 90,
+        "Grass": 80,
+        "Fairy": 85
       }
     }
   },
@@ -3248,17 +3248,17 @@
     "effects": [
       {
         "name": "Teensy Power",
-        "type": "くさ",
+        "type": "Grass",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "いわ",
+        "type": "Rock",
         "level": "1"
       },
       {
         "name": "Raid Power",
-        "type": "フェアリー",
+        "type": "Fairy",
         "level": "1"
       }
     ],
@@ -3271,9 +3271,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "いわ": 85,
-        "くさ": 190,
-        "フェアリー": 80
+        "Rock": 85,
+        "Grass": 190,
+        "Fairy": 80
       }
     }
   },
@@ -3295,17 +3295,17 @@
     "effects": [
       {
         "name": "Teensy Power",
-        "type": "くさ",
+        "type": "Grass",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "いわ",
+        "type": "Rock",
         "level": "2"
       },
       {
         "name": "Catching Power",
-        "type": "フェアリー",
+        "type": "Fairy",
         "level": "1"
       }
     ],
@@ -3318,9 +3318,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "いわ": 185,
-        "くさ": 190,
-        "フェアリー": 80
+        "Rock": 185,
+        "Grass": 190,
+        "Fairy": 80
       }
     }
   },
@@ -3343,17 +3343,17 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "くさ",
+        "type": "Grass",
         "level": "2"
       },
       {
         "name": "Catching Power",
-        "type": "フェアリー",
+        "type": "Fairy",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "2"
       }
     ],
@@ -3366,9 +3366,9 @@
         "Encounter Power": 80
       },
       "types": {
-        "ノーマル": 180,
-        "くさ": 190,
-        "フェアリー": 185
+        "Normal": 180,
+        "Grass": 190,
+        "Fairy": 185
       }
     }
   },
@@ -3387,17 +3387,17 @@
     "effects": [
       {
         "name": "Teensy Power",
-        "type": "むし",
+        "type": "Bug",
         "level": "1"
       },
       {
         "name": "Raid Power",
-        "type": "あく",
+        "type": "Dark",
         "level": "1"
       },
       {
         "name": "Exp. Point Power",
-        "type": "はがね",
+        "type": "Steel",
         "level": "1"
       }
     ],
@@ -3410,9 +3410,9 @@
         "Teensy Power": 90
       },
       "types": {
-        "むし": 90,
-        "はがね": 80,
-        "あく": 85
+        "Bug": 90,
+        "Steel": 80,
+        "Dark": 85
       }
     }
   },
@@ -3432,17 +3432,17 @@
     "effects": [
       {
         "name": "Teensy Power",
-        "type": "むし",
+        "type": "Bug",
         "level": "2"
       },
       {
         "name": "Raid Power",
-        "type": "あく",
+        "type": "Dark",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "はがね",
+        "type": "Steel",
         "level": "1"
       }
     ],
@@ -3455,9 +3455,9 @@
         "Teensy Power": 90
       },
       "types": {
-        "むし": 190,
-        "はがね": 80,
-        "あく": 85
+        "Bug": 190,
+        "Steel": 80,
+        "Dark": 85
       }
     }
   },
@@ -3478,17 +3478,17 @@
     "effects": [
       {
         "name": "Teensy Power",
-        "type": "むし",
+        "type": "Bug",
         "level": "2"
       },
       {
         "name": "Raid Power",
-        "type": "あく",
+        "type": "Dark",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "はがね",
+        "type": "Steel",
         "level": "1"
       }
     ],
@@ -3501,9 +3501,9 @@
         "Encounter Power": 80
       },
       "types": {
-        "むし": 190,
-        "はがね": 80,
-        "あく": 185
+        "Bug": 190,
+        "Steel": 80,
+        "Dark": 185
       }
     }
   },
@@ -3525,17 +3525,17 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "むし",
+        "type": "Bug",
         "level": "2"
       },
       {
         "name": "Humungo Power",
-        "type": "はがね",
+        "type": "Steel",
         "level": "2"
       },
       {
         "name": "Raid Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "2"
       }
     ],
@@ -3548,9 +3548,9 @@
         "Humungo Power": 85
       },
       "types": {
-        "ノーマル": 180,
-        "むし": 190,
-        "はがね": 185
+        "Normal": 180,
+        "Bug": 190,
+        "Steel": 185
       }
     }
   },
@@ -3569,17 +3569,17 @@
     "effects": [
       {
         "name": "Teensy Power",
-        "type": "かくとう",
+        "type": "Fighting",
         "level": "1"
       },
       {
         "name": "Encounter Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "1"
       },
       {
         "name": "Raid Power",
-        "type": "じめん",
+        "type": "Ground",
         "level": "1"
       }
     ],
@@ -3592,9 +3592,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "ノーマル": 85,
-        "かくとう": 90,
-        "じめん": 80
+        "Normal": 85,
+        "Fighting": 90,
+        "Ground": 80
       }
     }
   },
@@ -3614,17 +3614,17 @@
     "effects": [
       {
         "name": "Encounter Power",
-        "type": "かくとう",
+        "type": "Fighting",
         "level": "2"
       },
       {
         "name": "Catching Power",
-        "type": "ひこう",
+        "type": "Flying",
         "level": "1"
       },
       {
         "name": "Raid Power",
-        "type": "じめん",
+        "type": "Ground",
         "level": "1"
       }
     ],
@@ -3637,9 +3637,9 @@
         "Encounter Power": 90
       },
       "types": {
-        "かくとう": 190,
-        "ひこう": 85,
-        "じめん": 80
+        "Fighting": 190,
+        "Flying": 85,
+        "Ground": 80
       }
     }
   },
@@ -3660,17 +3660,17 @@
     "effects": [
       {
         "name": "Teensy Power",
-        "type": "いわ",
+        "type": "Rock",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "フェアリー",
+        "type": "Fairy",
         "level": "2"
       },
       {
         "name": "Catching Power",
-        "type": "くさ",
+        "type": "Grass",
         "level": "1"
       }
     ],
@@ -3683,9 +3683,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "いわ": 190,
-        "くさ": 80,
-        "フェアリー": 185
+        "Rock": 190,
+        "Grass": 80,
+        "Fairy": 185
       }
     }
   },
@@ -3707,17 +3707,17 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "いわ",
+        "type": "Rock",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "フェアリー",
+        "type": "Fairy",
         "level": "2"
       },
       {
         "name": "Catching Power",
-        "type": "くさ",
+        "type": "Grass",
         "level": "2"
       }
     ],
@@ -3730,9 +3730,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "いわ": 190,
-        "くさ": 180,
-        "フェアリー": 185
+        "Rock": 190,
+        "Grass": 180,
+        "Fairy": 185
       }
     }
   },
@@ -3751,17 +3751,17 @@
     "effects": [
       {
         "name": "Encounter Power",
-        "type": "むし",
+        "type": "Bug",
         "level": "1"
       },
       {
         "name": "Raid Power",
-        "type": "みず",
+        "type": "Water",
         "level": "1"
       },
       {
         "name": "Exp. Point Power",
-        "type": "はがね",
+        "type": "Steel",
         "level": "1"
       }
     ],
@@ -3774,9 +3774,9 @@
         "Encounter Power": 90
       },
       "types": {
-        "むし": 90,
-        "はがね": 80,
-        "みず": 85
+        "Bug": 90,
+        "Steel": 80,
+        "Water": 85
       }
     }
   },
@@ -3796,17 +3796,17 @@
     "effects": [
       {
         "name": "Encounter Power",
-        "type": "ドラゴン",
+        "type": "Dragon",
         "level": "2"
       },
       {
         "name": "Raid Power",
-        "type": "はがね",
+        "type": "Steel",
         "level": "1"
       },
       {
         "name": "Exp. Point Power",
-        "type": "むし",
+        "type": "Bug",
         "level": "1"
       }
     ],
@@ -3819,9 +3819,9 @@
         "Encounter Power": 90
       },
       "types": {
-        "むし": 80,
-        "はがね": 85,
-        "ドラゴン": 190
+        "Bug": 80,
+        "Steel": 85,
+        "Dragon": 190
       }
     }
   },
@@ -3842,17 +3842,17 @@
     "effects": [
       {
         "name": "Exp. Point Power",
-        "type": "ドラゴン",
+        "type": "Dragon",
         "level": "2"
       },
       {
         "name": "Raid Power",
-        "type": "でんき",
+        "type": "Electric",
         "level": "2"
       },
       {
         "name": "Catching Power",
-        "type": "みず",
+        "type": "Water",
         "level": "1"
       }
     ],
@@ -3865,9 +3865,9 @@
         "Raid Power": 85
       },
       "types": {
-        "みず": 80,
-        "でんき": 185,
-        "ドラゴン": 190
+        "Water": 80,
+        "Electric": 185,
+        "Dragon": 190
       }
     }
   },
@@ -3889,17 +3889,17 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "ドラゴン",
+        "type": "Dragon",
         "level": "2"
       },
       {
         "name": "Exp. Point Power",
-        "type": "でんき",
+        "type": "Electric",
         "level": "2"
       },
       {
         "name": "Raid Power",
-        "type": "みず",
+        "type": "Water",
         "level": "2"
       }
     ],
@@ -3912,9 +3912,9 @@
         "Title Power": 90
       },
       "types": {
-        "みず": 180,
-        "でんき": 185,
-        "ドラゴン": 190
+        "Water": 180,
+        "Electric": 185,
+        "Dragon": 190
       }
     }
   },
@@ -3933,17 +3933,17 @@
     "effects": [
       {
         "name": "Humungo Power",
-        "type": "エスパー",
+        "type": "Psychic",
         "level": "1"
       },
       {
         "name": "Encounter Power",
-        "type": "ドラゴン",
+        "type": "Dragon",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "はがね",
+        "type": "Steel",
         "level": "1"
       }
     ],
@@ -3956,9 +3956,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "はがね": 80,
-        "エスパー": 90,
-        "ドラゴン": 85
+        "Steel": 80,
+        "Psychic": 90,
+        "Dragon": 85
       }
     }
   },
@@ -3978,17 +3978,17 @@
     "effects": [
       {
         "name": "Humungo Power",
-        "type": "エスパー",
+        "type": "Psychic",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "ドラゴン",
+        "type": "Dragon",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "はがね",
+        "type": "Steel",
         "level": "1"
       }
     ],
@@ -4001,9 +4001,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "はがね": 80,
-        "エスパー": 190,
-        "ドラゴン": 85
+        "Steel": 80,
+        "Psychic": 190,
+        "Dragon": 85
       }
     }
   },
@@ -4024,17 +4024,17 @@
     "effects": [
       {
         "name": "Humungo Power",
-        "type": "エスパー",
+        "type": "Psychic",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "ドラゴン",
+        "type": "Dragon",
         "level": "2"
       },
       {
         "name": "Catching Power",
-        "type": "はがね",
+        "type": "Steel",
         "level": "1"
       }
     ],
@@ -4047,9 +4047,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "はがね": 80,
-        "エスパー": 190,
-        "ドラゴン": 185
+        "Steel": 80,
+        "Psychic": 190,
+        "Dragon": 185
       }
     }
   },
@@ -4071,17 +4071,17 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "エスパー",
+        "type": "Psychic",
         "level": "2"
       },
       {
         "name": "Raid Power",
-        "type": "ドラゴン",
+        "type": "Dragon",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "はがね",
+        "type": "Steel",
         "level": "2"
       }
     ],
@@ -4094,9 +4094,9 @@
         "Encounter Power": 80
       },
       "types": {
-        "はがね": 180,
-        "エスパー": 190,
-        "ドラゴン": 185
+        "Steel": 180,
+        "Psychic": 190,
+        "Dragon": 185
       }
     }
   },
@@ -4116,17 +4116,17 @@
     "effects": [
       {
         "name": "Exp. Point Power",
-        "type": "あく",
+        "type": "Dark",
         "level": "1"
       },
       {
         "name": "Raid Power",
-        "type": "ドラゴン",
+        "type": "Dragon",
         "level": "1"
       },
       {
         "name": "Encounter Power",
-        "type": "エスパー",
+        "type": "Psychic",
         "level": "1"
       }
     ],
@@ -4139,9 +4139,9 @@
         "Encounter Power": 80
       },
       "types": {
-        "エスパー": 80,
-        "ドラゴン": 85,
-        "あく": 90
+        "Psychic": 80,
+        "Dragon": 85,
+        "Dark": 90
       }
     }
   },
@@ -4162,17 +4162,17 @@
     "effects": [
       {
         "name": "Exp. Point Power",
-        "type": "ゴースト",
+        "type": "Ghost",
         "level": "2"
       },
       {
         "name": "Raid Power",
-        "type": "エスパー",
+        "type": "Psychic",
         "level": "1"
       },
       {
         "name": "Encounter Power",
-        "type": "あく",
+        "type": "Dark",
         "level": "1"
       }
     ],
@@ -4185,9 +4185,9 @@
         "Encounter Power": 80
       },
       "types": {
-        "ゴースト": 190,
-        "エスパー": 85,
-        "あく": 80
+        "Ghost": 190,
+        "Psychic": 85,
+        "Dark": 80
       }
     }
   },
@@ -4209,17 +4209,17 @@
     "effects": [
       {
         "name": "Exp. Point Power",
-        "type": "あく",
+        "type": "Dark",
         "level": "2"
       },
       {
         "name": "Raid Power",
-        "type": "エスパー",
+        "type": "Psychic",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "ゴースト",
+        "type": "Ghost",
         "level": "1"
       }
     ],
@@ -4232,9 +4232,9 @@
         "Encounter Power": 80
       },
       "types": {
-        "ゴースト": 80,
-        "エスパー": 185,
-        "あく": 190
+        "Ghost": 80,
+        "Psychic": 185,
+        "Dark": 190
       }
     }
   },
@@ -4257,17 +4257,17 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "あく",
+        "type": "Dark",
         "level": "2"
       },
       {
         "name": "Exp. Point Power",
-        "type": "エスパー",
+        "type": "Psychic",
         "level": "2"
       },
       {
         "name": "Raid Power",
-        "type": "ゴースト",
+        "type": "Ghost",
         "level": "2"
       }
     ],
@@ -4280,9 +4280,9 @@
         "Title Power": 90
       },
       "types": {
-        "ゴースト": 180,
-        "エスパー": 185,
-        "あく": 190
+        "Ghost": 180,
+        "Psychic": 185,
+        "Dark": 190
       }
     }
   },
@@ -4302,16 +4302,16 @@
     "effects": [
       {
         "name": "Item Drop Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "じめん",
+        "type": "Ground",
         "level": "1"
       },
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "1"
       }
@@ -4320,14 +4320,14 @@
     "location": "From man in Sandwich shop",
     "rawEffectValues": {
       "powers": {
-        "タマゴパワー": 80,
+        "Egg Power": 80,
         "Catching Power": 85,
         "Item Drop Power": 90
       },
       "types": {
-        "ノーマル": 90,
-        "ひこう": 80,
-        "じめん": 85
+        "Normal": 90,
+        "Flying": 80,
+        "Ground": 85
       }
     }
   },
@@ -4348,16 +4348,16 @@
     "effects": [
       {
         "name": "Item Drop Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "2"
       },
       {
         "name": "Catching Power",
-        "type": "どく",
+        "type": "Poison",
         "level": "1"
       },
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "1"
       }
@@ -4366,14 +4366,14 @@
     "location": "From man in Sandwich shop",
     "rawEffectValues": {
       "powers": {
-        "タマゴパワー": 80,
+        "Egg Power": 80,
         "Catching Power": 85,
         "Item Drop Power": 90
       },
       "types": {
-        "ノーマル": 190,
-        "ひこう": 80,
-        "どく": 85
+        "Normal": 190,
+        "Flying": 80,
+        "Poison": 85
       }
     }
   },
@@ -4395,16 +4395,16 @@
     "effects": [
       {
         "name": "Item Drop Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "2"
       },
       {
         "name": "Catching Power",
-        "type": "どく",
+        "type": "Poison",
         "level": "2"
       },
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "1"
       }
@@ -4413,14 +4413,14 @@
     "location": "From man in Sandwich shop",
     "rawEffectValues": {
       "powers": {
-        "タマゴパワー": 80,
+        "Egg Power": 80,
         "Catching Power": 85,
         "Item Drop Power": 90
       },
       "types": {
-        "ノーマル": 190,
-        "ひこう": 80,
-        "どく": 185
+        "Normal": 190,
+        "Flying": 80,
+        "Poison": 185
       }
     }
   },
@@ -4443,17 +4443,17 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "2"
       },
       {
         "name": "Item Drop Power",
-        "type": "どく",
+        "type": "Poison",
         "level": "2"
       },
       {
         "name": "Catching Power",
-        "type": "ひこう",
+        "type": "Flying",
         "level": "2"
       }
     ],
@@ -4466,9 +4466,9 @@
         "Title Power": 90
       },
       "types": {
-        "ノーマル": 190,
-        "ひこう": 180,
-        "どく": 185
+        "Normal": 190,
+        "Flying": 180,
+        "Poison": 185
       }
     }
   },
@@ -4488,17 +4488,17 @@
     "effects": [
       {
         "name": "Teensy Power",
-        "type": "ひこう",
+        "type": "Flying",
         "level": "1"
       },
       {
         "name": "Encounter Power",
-        "type": "あく",
+        "type": "Dark",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "むし",
+        "type": "Bug",
         "level": "1"
       }
     ],
@@ -4511,9 +4511,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "ひこう": 90,
-        "むし": 80,
-        "あく": 85
+        "Flying": 90,
+        "Bug": 80,
+        "Dark": 85
       }
     }
   },
@@ -4534,17 +4534,17 @@
     "effects": [
       {
         "name": "Teensy Power",
-        "type": "むし",
+        "type": "Bug",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "ドラゴン",
+        "type": "Dragon",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "あく",
+        "type": "Dark",
         "level": "1"
       }
     ],
@@ -4557,9 +4557,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "むし": 190,
-        "ドラゴン": 85,
-        "あく": 80
+        "Bug": 190,
+        "Dragon": 85,
+        "Dark": 80
       }
     }
   },
@@ -4581,17 +4581,17 @@
     "effects": [
       {
         "name": "Encounter Power",
-        "type": "むし",
+        "type": "Bug",
         "level": "2"
       },
       {
         "name": "Catching Power",
-        "type": "あく",
+        "type": "Dark",
         "level": "2"
       },
       {
         "name": "Humungo Power",
-        "type": "はがね",
+        "type": "Steel",
         "level": "1"
       }
     ],
@@ -4604,9 +4604,9 @@
         "Encounter Power": 90
       },
       "types": {
-        "むし": 190,
-        "はがね": 80,
-        "あく": 185
+        "Bug": 190,
+        "Steel": 80,
+        "Dark": 185
       }
     }
   },
@@ -4629,17 +4629,17 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "むし",
+        "type": "Bug",
         "level": "2"
       },
       {
         "name": "Exp. Point Power",
-        "type": "はがね",
+        "type": "Steel",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "2"
       }
     ],
@@ -4652,9 +4652,9 @@
         "Encounter Power": 80
       },
       "types": {
-        "ノーマル": 180,
-        "むし": 190,
-        "はがね": 185
+        "Normal": 180,
+        "Bug": 190,
+        "Steel": 185
       }
     }
   },
@@ -4674,17 +4674,17 @@
     "effects": [
       {
         "name": "Encounter Power",
-        "type": "くさ",
+        "type": "Grass",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "フェアリー",
+        "type": "Fairy",
         "level": "1"
       },
       {
         "name": "Item Drop Power",
-        "type": "こおり",
+        "type": "Ice",
         "level": "1"
       }
     ],
@@ -4697,9 +4697,9 @@
         "Encounter Power": 90
       },
       "types": {
-        "くさ": 90,
-        "こおり": 80,
-        "フェアリー": 85
+        "Grass": 90,
+        "Ice": 80,
+        "Fairy": 85
       }
     }
   },
@@ -4720,17 +4720,17 @@
     "effects": [
       {
         "name": "Encounter Power",
-        "type": "くさ",
+        "type": "Grass",
         "level": "2"
       },
       {
         "name": "Catching Power",
-        "type": "フェアリー",
+        "type": "Fairy",
         "level": "1"
       },
       {
         "name": "Item Drop Power",
-        "type": "こおり",
+        "type": "Ice",
         "level": "1"
       }
     ],
@@ -4743,9 +4743,9 @@
         "Encounter Power": 90
       },
       "types": {
-        "くさ": 190,
-        "こおり": 80,
-        "フェアリー": 85
+        "Grass": 190,
+        "Ice": 80,
+        "Fairy": 85
       }
     }
   },
@@ -4767,17 +4767,17 @@
     "effects": [
       {
         "name": "Encounter Power",
-        "type": "くさ",
+        "type": "Grass",
         "level": "2"
       },
       {
         "name": "Catching Power",
-        "type": "こおり",
+        "type": "Ice",
         "level": "2"
       },
       {
         "name": "Item Drop Power",
-        "type": "でんき",
+        "type": "Electric",
         "level": "1"
       }
     ],
@@ -4790,9 +4790,9 @@
         "Encounter Power": 90
       },
       "types": {
-        "くさ": 190,
-        "でんき": 80,
-        "こおり": 185
+        "Grass": 190,
+        "Electric": 80,
+        "Ice": 185
       }
     }
   },
@@ -4815,17 +4815,17 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "くさ",
+        "type": "Grass",
         "level": "2"
       },
       {
         "name": "Humungo Power",
-        "type": "こおり",
+        "type": "Ice",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "でんき",
+        "type": "Electric",
         "level": "2"
       }
     ],
@@ -4838,9 +4838,9 @@
         "Encounter Power": 80
       },
       "types": {
-        "くさ": 190,
-        "でんき": 180,
-        "こおり": 185
+        "Grass": 190,
+        "Electric": 180,
+        "Ice": 185
       }
     }
   },
@@ -4859,18 +4859,18 @@
     ],
     "effects": [
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "1"
       },
       {
         "name": "Item Drop Power",
-        "type": "むし",
+        "type": "Bug",
         "level": "1"
       },
       {
         "name": "Raid Power",
-        "type": "ひこう",
+        "type": "Flying",
         "level": "1"
       }
     ],
@@ -4878,14 +4878,14 @@
     "location": "From man in Sandwich shop",
     "rawEffectValues": {
       "powers": {
-        "タマゴパワー": 90,
+        "Egg Power": 90,
         "Item Drop Power": 85,
         "Raid Power": 80
       },
       "types": {
-        "ノーマル": 90,
-        "ひこう": 80,
-        "むし": 85
+        "Normal": 90,
+        "Flying": 80,
+        "Bug": 85
       }
     }
   },
@@ -4905,18 +4905,18 @@
     ],
     "effects": [
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "2"
       },
       {
         "name": "Item Drop Power",
-        "type": "むし",
+        "type": "Bug",
         "level": "1"
       },
       {
         "name": "Raid Power",
-        "type": "ひこう",
+        "type": "Flying",
         "level": "1"
       }
     ],
@@ -4924,14 +4924,14 @@
     "location": "From man in Sandwich shop",
     "rawEffectValues": {
       "powers": {
-        "タマゴパワー": 90,
+        "Egg Power": 90,
         "Item Drop Power": 85,
         "Raid Power": 80
       },
       "types": {
-        "ノーマル": 190,
-        "ひこう": 80,
-        "むし": 85
+        "Normal": 190,
+        "Flying": 80,
+        "Bug": 85
       }
     }
   },
@@ -4952,18 +4952,18 @@
     ],
     "effects": [
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "2"
       },
       {
         "name": "Item Drop Power",
-        "type": "ひこう",
+        "type": "Flying",
         "level": "2"
       },
       {
         "name": "Raid Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "1"
       }
     ],
@@ -4971,14 +4971,14 @@
     "location": "From man in Sandwich shop",
     "rawEffectValues": {
       "powers": {
-        "タマゴパワー": 90,
+        "Egg Power": 90,
         "Item Drop Power": 85,
         "Raid Power": 80
       },
       "types": {
-        "ノーマル": 80,
-        "ひこう": 185,
-        "でんき": 190
+        "Normal": 80,
+        "Flying": 185,
+        "Electric": 190
       }
     }
   },
@@ -5001,17 +5001,17 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "でんき",
+        "type": "Electric",
         "level": "2"
       },
       {
         "name": "Catching Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "2"
       },
       {
         "name": "Item Drop Power",
-        "type": "かくとう",
+        "type": "Fighting",
         "level": "2"
       }
     ],
@@ -5024,9 +5024,9 @@
         "Title Power": 90
       },
       "types": {
-        "ノーマル": 185,
-        "かくとう": 180,
-        "でんき": 190
+        "Normal": 185,
+        "Fighting": 180,
+        "Electric": 190
       }
     }
   },
@@ -5047,17 +5047,17 @@
     "effects": [
       {
         "name": "Teensy Power",
-        "type": "どく",
+        "type": "Poison",
         "level": "1"
       },
       {
         "name": "Encounter Power",
-        "type": "みず",
+        "type": "Water",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "むし",
+        "type": "Bug",
         "level": "1"
       }
     ],
@@ -5070,9 +5070,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "どく": 90,
-        "むし": 80,
-        "みず": 85
+        "Poison": 90,
+        "Bug": 80,
+        "Water": 85
       }
     }
   },
@@ -5094,17 +5094,17 @@
     "effects": [
       {
         "name": "Encounter Power",
-        "type": "ゴースト",
+        "type": "Ghost",
         "level": "2"
       },
       {
         "name": "Teensy Power",
-        "type": "むし",
+        "type": "Bug",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "どく",
+        "type": "Poison",
         "level": "1"
       }
     ],
@@ -5117,9 +5117,9 @@
         "Encounter Power": 90
       },
       "types": {
-        "どく": 80,
-        "むし": 85,
-        "ゴースト": 190
+        "Poison": 80,
+        "Bug": 85,
+        "Ghost": 190
       }
     }
   },
@@ -5142,17 +5142,17 @@
     "effects": [
       {
         "name": "Encounter Power",
-        "type": "ゴースト",
+        "type": "Ghost",
         "level": "2"
       },
       {
         "name": "Teensy Power",
-        "type": "むし",
+        "type": "Bug",
         "level": "2"
       },
       {
         "name": "Catching Power",
-        "type": "どく",
+        "type": "Poison",
         "level": "1"
       }
     ],
@@ -5165,9 +5165,9 @@
         "Encounter Power": 90
       },
       "types": {
-        "どく": 80,
-        "むし": 185,
-        "ゴースト": 190
+        "Poison": 80,
+        "Bug": 185,
+        "Ghost": 190
       }
     }
   },
@@ -5191,17 +5191,17 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "ゴースト",
+        "type": "Ghost",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "むし",
+        "type": "Bug",
         "level": "2"
       },
       {
         "name": "Catching Power",
-        "type": "どく",
+        "type": "Poison",
         "level": "2"
       }
     ],
@@ -5214,9 +5214,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "どく": 180,
-        "むし": 185,
-        "ゴースト": 190
+        "Poison": 180,
+        "Bug": 185,
+        "Ghost": 190
       }
     }
   },
@@ -5237,17 +5237,17 @@
     "effects": [
       {
         "name": "Encounter Power",
-        "type": "はがね",
+        "type": "Steel",
         "level": "1"
       },
       {
         "name": "Raid Power",
-        "type": "ゴースト",
+        "type": "Ghost",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "むし",
+        "type": "Bug",
         "level": "1"
       }
     ],
@@ -5260,9 +5260,9 @@
         "Encounter Power": 90
       },
       "types": {
-        "むし": 80,
-        "ゴースト": 85,
-        "はがね": 90
+        "Bug": 80,
+        "Ghost": 85,
+        "Steel": 90
       }
     }
   },
@@ -5284,17 +5284,17 @@
     "effects": [
       {
         "name": "Encounter Power",
-        "type": "ゴースト",
+        "type": "Ghost",
         "level": "2"
       },
       {
         "name": "Raid Power",
-        "type": "エスパー",
+        "type": "Psychic",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "あく",
+        "type": "Dark",
         "level": "1"
       }
     ],
@@ -5307,9 +5307,9 @@
         "Encounter Power": 90
       },
       "types": {
-        "ゴースト": 190,
-        "エスパー": 85,
-        "あく": 80
+        "Ghost": 190,
+        "Psychic": 85,
+        "Dark": 80
       }
     }
   },
@@ -5332,17 +5332,17 @@
     "effects": [
       {
         "name": "Encounter Power",
-        "type": "ゴースト",
+        "type": "Ghost",
         "level": "2"
       },
       {
         "name": "Catching Power",
-        "type": "はがね",
+        "type": "Steel",
         "level": "2"
       },
       {
         "name": "Raid Power",
-        "type": "あく",
+        "type": "Dark",
         "level": "1"
       }
     ],
@@ -5355,9 +5355,9 @@
         "Encounter Power": 90
       },
       "types": {
-        "ゴースト": 190,
-        "はがね": 185,
-        "あく": 80
+        "Ghost": 190,
+        "Steel": 185,
+        "Dark": 80
       }
     }
   },
@@ -5381,17 +5381,17 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "ゴースト",
+        "type": "Ghost",
         "level": "2"
       },
       {
         "name": "Teensy Power",
-        "type": "あく",
+        "type": "Dark",
         "level": "2"
       },
       {
         "name": "Catching Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "2"
       }
     ],
@@ -5404,9 +5404,9 @@
         "Teensy Power": 85
       },
       "types": {
-        "ノーマル": 180,
-        "ゴースト": 190,
-        "あく": 185
+        "Normal": 180,
+        "Ghost": 190,
+        "Dark": 185
       }
     }
   },
@@ -5427,17 +5427,17 @@
     "effects": [
       {
         "name": "Humungo Power",
-        "type": "どく",
+        "type": "Poison",
         "level": "1"
       },
       {
         "name": "Exp. Point Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "1"
       },
       {
         "name": "Raid Power",
-        "type": "ドラゴン",
+        "type": "Dragon",
         "level": "1"
       }
     ],
@@ -5450,9 +5450,9 @@
         "Humungo Power": 90
       },
       "types": {
-        "ノーマル": 85,
-        "どく": 90,
-        "ドラゴン": 80
+        "Normal": 85,
+        "Poison": 90,
+        "Dragon": 80
       }
     }
   },
@@ -5474,17 +5474,17 @@
     "effects": [
       {
         "name": "Humungo Power",
-        "type": "どく",
+        "type": "Poison",
         "level": "2"
       },
       {
         "name": "Raid Power",
-        "type": "ほのお",
+        "type": "Fire",
         "level": "1"
       },
       {
         "name": "Exp. Point Power",
-        "type": "ドラゴン",
+        "type": "Dragon",
         "level": "1"
       }
     ],
@@ -5497,9 +5497,9 @@
         "Humungo Power": 90
       },
       "types": {
-        "どく": 190,
-        "ほのお": 85,
-        "ドラゴン": 80
+        "Poison": 190,
+        "Fire": 85,
+        "Dragon": 80
       }
     }
   },
@@ -5522,17 +5522,17 @@
     "effects": [
       {
         "name": "Humungo Power",
-        "type": "どく",
+        "type": "Poison",
         "level": "2"
       },
       {
         "name": "Raid Power",
-        "type": "ほのお",
+        "type": "Fire",
         "level": "2"
       },
       {
         "name": "Exp. Point Power",
-        "type": "ドラゴン",
+        "type": "Dragon",
         "level": "1"
       }
     ],
@@ -5545,9 +5545,9 @@
         "Humungo Power": 90
       },
       "types": {
-        "どく": 190,
-        "ほのお": 185,
-        "ドラゴン": 80
+        "Poison": 190,
+        "Fire": 185,
+        "Dragon": 80
       }
     }
   },
@@ -5571,17 +5571,17 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "どく",
+        "type": "Poison",
         "level": "2"
       },
       {
         "name": "Humungo Power",
-        "type": "ドラゴン",
+        "type": "Dragon",
         "level": "2"
       },
       {
         "name": "Raid Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "2"
       }
     ],
@@ -5594,9 +5594,9 @@
         "Humungo Power": 85
       },
       "types": {
-        "ノーマル": 180,
-        "どく": 190,
-        "ドラゴン": 185
+        "Normal": 180,
+        "Poison": 190,
+        "Dragon": 185
       }
     }
   },
@@ -5617,17 +5617,17 @@
     "effects": [
       {
         "name": "Item Drop Power",
-        "type": "でんき",
+        "type": "Electric",
         "level": "1"
       },
       {
         "name": "Encounter Power",
-        "type": "フェアリー",
+        "type": "Fairy",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "エスパー",
+        "type": "Psychic",
         "level": "1"
       }
     ],
@@ -5640,9 +5640,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "でんき": 90,
-        "エスパー": 80,
-        "フェアリー": 85
+        "Electric": 90,
+        "Psychic": 80,
+        "Fairy": 85
       }
     }
   },
@@ -5664,17 +5664,17 @@
     "effects": [
       {
         "name": "Item Drop Power",
-        "type": "でんき",
+        "type": "Electric",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "フェアリー",
+        "type": "Fairy",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "エスパー",
+        "type": "Psychic",
         "level": "1"
       }
     ],
@@ -5687,9 +5687,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "でんき": 190,
-        "エスパー": 80,
-        "フェアリー": 85
+        "Electric": 190,
+        "Psychic": 80,
+        "Fairy": 85
       }
     }
   },
@@ -5712,17 +5712,17 @@
     "effects": [
       {
         "name": "Teensy Power",
-        "type": "でんき",
+        "type": "Electric",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "フェアリー",
+        "type": "Fairy",
         "level": "2"
       },
       {
         "name": "Catching Power",
-        "type": "エスパー",
+        "type": "Psychic",
         "level": "1"
       }
     ],
@@ -5735,9 +5735,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "でんき": 190,
-        "エスパー": 80,
-        "フェアリー": 185
+        "Electric": 190,
+        "Psychic": 80,
+        "Fairy": 185
       }
     }
   },
@@ -5761,17 +5761,17 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "でんき",
+        "type": "Electric",
         "level": "2"
       },
       {
         "name": "Catching Power",
-        "type": "フェアリー",
+        "type": "Fairy",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "エスパー",
+        "type": "Psychic",
         "level": "2"
       }
     ],
@@ -5784,9 +5784,9 @@
         "Encounter Power": 80
       },
       "types": {
-        "でんき": 190,
-        "エスパー": 180,
-        "フェアリー": 185
+        "Electric": 190,
+        "Psychic": 180,
+        "Fairy": 185
       }
     }
   },
@@ -5807,17 +5807,17 @@
     "effects": [
       {
         "name": "Catching Power",
-        "type": "どく",
+        "type": "Poison",
         "level": "1"
       },
       {
         "name": "Encounter Power",
-        "type": "ほのお",
+        "type": "Fire",
         "level": "1"
       },
       {
         "name": "Item Drop Power",
-        "type": "じめん",
+        "type": "Ground",
         "level": "1"
       }
     ],
@@ -5830,9 +5830,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "どく": 90,
-        "じめん": 80,
-        "ほのお": 85
+        "Poison": 90,
+        "Ground": 80,
+        "Fire": 85
       }
     }
   },
@@ -5854,17 +5854,17 @@
     "effects": [
       {
         "name": "Catching Power",
-        "type": "ドラゴン",
+        "type": "Dragon",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "じめん",
+        "type": "Ground",
         "level": "1"
       },
       {
         "name": "Item Drop Power",
-        "type": "どく",
+        "type": "Poison",
         "level": "1"
       }
     ],
@@ -5877,9 +5877,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "どく": 80,
-        "じめん": 85,
-        "ドラゴン": 190
+        "Poison": 80,
+        "Ground": 85,
+        "Dragon": 190
       }
     }
   },
@@ -5902,17 +5902,17 @@
     "effects": [
       {
         "name": "Catching Power",
-        "type": "ドラゴン",
+        "type": "Dragon",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "じめん",
+        "type": "Ground",
         "level": "2"
       },
       {
         "name": "Item Drop Power",
-        "type": "どく",
+        "type": "Poison",
         "level": "1"
       }
     ],
@@ -5925,9 +5925,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "どく": 80,
-        "じめん": 185,
-        "ドラゴン": 190
+        "Poison": 80,
+        "Ground": 185,
+        "Dragon": 190
       }
     }
   },
@@ -5951,17 +5951,17 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "ドラゴン",
+        "type": "Dragon",
         "level": "2"
       },
       {
         "name": "Item Drop Power",
-        "type": "どく",
+        "type": "Poison",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "2"
       }
     ],
@@ -5974,9 +5974,9 @@
         "Encounter Power": 80
       },
       "types": {
-        "ノーマル": 180,
-        "どく": 185,
-        "ドラゴン": 190
+        "Normal": 180,
+        "Poison": 185,
+        "Dragon": 190
       }
     }
   },
@@ -5998,17 +5998,17 @@
     "effects": [
       {
         "name": "Exp. Point Power",
-        "type": "こおり",
+        "type": "Ice",
         "level": "1"
       },
       {
         "name": "Raid Power",
-        "type": "エスパー",
+        "type": "Psychic",
         "level": "1"
       },
       {
         "name": "Encounter Power",
-        "type": "あく",
+        "type": "Dark",
         "level": "1"
       }
     ],
@@ -6021,9 +6021,9 @@
         "Encounter Power": 80
       },
       "types": {
-        "エスパー": 85,
-        "こおり": 90,
-        "あく": 80
+        "Psychic": 85,
+        "Ice": 90,
+        "Dark": 80
       }
     }
   },
@@ -6046,17 +6046,17 @@
     "effects": [
       {
         "name": "Exp. Point Power",
-        "type": "こおり",
+        "type": "Ice",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "あく",
+        "type": "Dark",
         "level": "1"
       }
     ],
@@ -6069,9 +6069,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "ノーマル": 85,
-        "こおり": 190,
-        "あく": 80
+        "Normal": 85,
+        "Ice": 190,
+        "Dark": 80
       }
     }
   },
@@ -6095,17 +6095,17 @@
     "effects": [
       {
         "name": "Exp. Point Power",
-        "type": "ゴースト",
+        "type": "Ghost",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "あく",
+        "type": "Dark",
         "level": "2"
       },
       {
         "name": "Catching Power",
-        "type": "こおり",
+        "type": "Ice",
         "level": "1"
       }
     ],
@@ -6118,9 +6118,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "ゴースト": 190,
-        "こおり": 80,
-        "あく": 185
+        "Ghost": 190,
+        "Ice": 80,
+        "Dark": 185
       }
     }
   },
@@ -6145,17 +6145,17 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "ゴースト",
+        "type": "Ghost",
         "level": "2"
       },
       {
         "name": "Humungo Power",
-        "type": "あく",
+        "type": "Dark",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "こおり",
+        "type": "Ice",
         "level": "2"
       }
     ],
@@ -6168,9 +6168,9 @@
         "Encounter Power": 80
       },
       "types": {
-        "ゴースト": 190,
-        "こおり": 180,
-        "あく": 185
+        "Ghost": 190,
+        "Ice": 180,
+        "Dark": 185
       }
     }
   },
@@ -6192,17 +6192,17 @@
     "effects": [
       {
         "name": "Encounter Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "1"
       },
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "くさ",
+        "type": "Grass",
         "level": "1"
       }
     ],
@@ -6210,14 +6210,14 @@
     "location": "From man in Sandwich shop",
     "rawEffectValues": {
       "powers": {
-        "タマゴパワー": 85,
+        "Egg Power": 85,
         "Catching Power": 80,
         "Encounter Power": 90
       },
       "types": {
-        "ノーマル": 90,
-        "かくとう": 85,
-        "くさ": 80
+        "Normal": 90,
+        "Fighting": 85,
+        "Grass": 80
       }
     }
   },
@@ -6240,17 +6240,17 @@
     "effects": [
       {
         "name": "Encounter Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "2"
       },
       {
         "name": "Raid Power",
-        "type": "かくとう",
+        "type": "Fighting",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "くさ",
+        "type": "Grass",
         "level": "1"
       }
     ],
@@ -6263,9 +6263,9 @@
         "Encounter Power": 90
       },
       "types": {
-        "ノーマル": 190,
-        "かくとう": 85,
-        "くさ": 80
+        "Normal": 190,
+        "Fighting": 85,
+        "Grass": 80
       }
     }
   },
@@ -6289,17 +6289,17 @@
     "effects": [
       {
         "name": "Raid Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "かくとう",
+        "type": "Fighting",
         "level": "2"
       },
       {
         "name": "Catching Power",
-        "type": "くさ",
+        "type": "Grass",
         "level": "1"
       }
     ],
@@ -6312,9 +6312,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "ノーマル": 190,
-        "かくとう": 185,
-        "くさ": 80
+        "Normal": 190,
+        "Fighting": 185,
+        "Grass": 80
       }
     }
   },
@@ -6339,17 +6339,17 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "くさ",
+        "type": "Grass",
         "level": "2"
       },
       {
         "name": "Catching Power",
-        "type": "かくとう",
+        "type": "Fighting",
         "level": "2"
       }
     ],
@@ -6362,9 +6362,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "ノーマル": 190,
-        "かくとう": 180,
-        "くさ": 185
+        "Normal": 190,
+        "Fighting": 180,
+        "Grass": 185
       }
     }
   },
@@ -6386,17 +6386,17 @@
     "effects": [
       {
         "name": "Exp. Point Power",
-        "type": "でんき",
+        "type": "Electric",
         "level": "1"
       },
       {
         "name": "Encounter Power",
-        "type": "エスパー",
+        "type": "Psychic",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "いわ",
+        "type": "Rock",
         "level": "1"
       }
     ],
@@ -6409,9 +6409,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "いわ": 80,
-        "でんき": 90,
-        "エスパー": 85
+        "Rock": 80,
+        "Electric": 90,
+        "Psychic": 85
       }
     }
   },
@@ -6434,17 +6434,17 @@
     "effects": [
       {
         "name": "Item Drop Power",
-        "type": "いわ",
+        "type": "Rock",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "エスパー",
+        "type": "Psychic",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "でんき",
+        "type": "Electric",
         "level": "1"
       }
     ],
@@ -6457,9 +6457,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "いわ": 190,
-        "でんき": 80,
-        "エスパー": 85
+        "Rock": 190,
+        "Electric": 80,
+        "Psychic": 85
       }
     }
   },
@@ -6483,17 +6483,17 @@
     "effects": [
       {
         "name": "Exp. Point Power",
-        "type": "いわ",
+        "type": "Rock",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "くさ",
+        "type": "Grass",
         "level": "2"
       },
       {
         "name": "Catching Power",
-        "type": "こおり",
+        "type": "Ice",
         "level": "1"
       }
     ],
@@ -6506,9 +6506,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "いわ": 190,
-        "くさ": 185,
-        "こおり": 80
+        "Rock": 190,
+        "Grass": 185,
+        "Ice": 80
       }
     }
   },
@@ -6533,17 +6533,17 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "いわ",
+        "type": "Rock",
         "level": "2"
       },
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "2"
       }
     ],
@@ -6551,14 +6551,14 @@
     "location": "From man in Sandwich shop if you have Sweet Herba Mystica",
     "rawEffectValues": {
       "powers": {
-        "タマゴパワー": 85,
+        "Egg Power": 85,
         "Title Power": 90,
         "Encounter Power": 80
       },
       "types": {
-        "ノーマル": 180,
-        "いわ": 190,
-        "こおり": 185
+        "Normal": 180,
+        "Rock": 190,
+        "Ice": 185
       }
     }
   },
@@ -6580,17 +6580,17 @@
     "effects": [
       {
         "name": "Exp. Point Power",
-        "type": "はがね",
+        "type": "Steel",
         "level": "1"
       },
       {
         "name": "Encounter Power",
-        "type": "ほのお",
+        "type": "Fire",
         "level": "1"
       },
       {
         "name": "Humungo Power",
-        "type": "ゴースト",
+        "type": "Ghost",
         "level": "1"
       }
     ],
@@ -6603,9 +6603,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "ゴースト": 80,
-        "はがね": 90,
-        "ほのお": 85
+        "Ghost": 80,
+        "Steel": 90,
+        "Fire": 85
       }
     }
   },
@@ -6628,17 +6628,17 @@
     "effects": [
       {
         "name": "Exp. Point Power",
-        "type": "はがね",
+        "type": "Steel",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "ゴースト",
+        "type": "Ghost",
         "level": "1"
       },
       {
         "name": "Humungo Power",
-        "type": "こおり",
+        "type": "Ice",
         "level": "1"
       }
     ],
@@ -6651,9 +6651,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "ゴースト": 85,
-        "はがね": 190,
-        "こおり": 80
+        "Ghost": 85,
+        "Steel": 190,
+        "Ice": 80
       }
     }
   },
@@ -6677,17 +6677,17 @@
     "effects": [
       {
         "name": "Encounter Power",
-        "type": "はがね",
+        "type": "Steel",
         "level": "2"
       },
       {
         "name": "Humungo Power",
-        "type": "こおり",
+        "type": "Ice",
         "level": "2"
       },
       {
         "name": "Catching Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "2"
       }
     ],
@@ -6700,9 +6700,9 @@
         "Encounter Power": 90
       },
       "types": {
-        "ノーマル": 80,
-        "はがね": 190,
-        "こおり": 185
+        "Normal": 80,
+        "Steel": 190,
+        "Ice": 185
       }
     }
   },
@@ -6727,17 +6727,17 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "はがね",
+        "type": "Steel",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "2"
       },
       {
         "name": "Exp. Point Power",
-        "type": "かくとう",
+        "type": "Fighting",
         "level": "2"
       }
     ],
@@ -6750,9 +6750,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "ノーマル": 185,
-        "かくとう": 180,
-        "はがね": 190
+        "Normal": 185,
+        "Fighting": 180,
+        "Steel": 190
       }
     }
   },
@@ -6774,17 +6774,17 @@
     "effects": [
       {
         "name": "Encounter Power",
-        "type": "あく",
+        "type": "Dark",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "かくとう",
+        "type": "Fighting",
         "level": "1"
       },
       {
         "name": "Humungo Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "1"
       }
     ],
@@ -6797,9 +6797,9 @@
         "Encounter Power": 90
       },
       "types": {
-        "ノーマル": 80,
-        "かくとう": 85,
-        "あく": 90
+        "Normal": 80,
+        "Fighting": 85,
+        "Dark": 90
       }
     }
   },
@@ -6822,17 +6822,17 @@
     "effects": [
       {
         "name": "Exp. Point Power",
-        "type": "あく",
+        "type": "Dark",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "かくとう",
+        "type": "Fighting",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "1"
       }
     ],
@@ -6845,9 +6845,9 @@
         "Encounter Power": 85
       },
       "types": {
-        "ノーマル": 80,
-        "かくとう": 85,
-        "あく": 190
+        "Normal": 80,
+        "Fighting": 85,
+        "Dark": 190
       }
     }
   },
@@ -6871,17 +6871,17 @@
     "effects": [
       {
         "name": "Encounter Power",
-        "type": "こおり",
+        "type": "Ice",
         "level": "2"
       },
       {
         "name": "Catching Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "2"
       },
       {
         "name": "Humungo Power",
-        "type": "あく",
+        "type": "Dark",
         "level": "1"
       }
     ],
@@ -6894,9 +6894,9 @@
         "Encounter Power": 90
       },
       "types": {
-        "ノーマル": 185,
-        "こおり": 190,
-        "あく": 80
+        "Normal": 185,
+        "Ice": 190,
+        "Dark": 80
       }
     }
   },
@@ -6921,17 +6921,17 @@
     "effects": [
       {
         "name": "Title Power",
-        "type": "こおり",
+        "type": "Ice",
         "level": "2"
       },
       {
         "name": "Teensy Power",
-        "type": "あく",
+        "type": "Dark",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "2"
       }
     ],
@@ -6944,9 +6944,9 @@
         "Encounter Power": 80
       },
       "types": {
-        "ノーマル": 180,
-        "こおり": 190,
-        "あく": 185
+        "Normal": 180,
+        "Ice": 190,
+        "Dark": 185
       }
     }
   }

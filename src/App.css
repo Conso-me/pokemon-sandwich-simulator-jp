@@ -80,11 +80,11 @@
 
 .ingredient-power-bg {
   position: absolute;
-  top: 0;
+  bottom: 0;
   left: 0;
-  width: 40px;
-  height: 40px;
-  z-index: -10;  
+  width: 100%;
+  height: 2.5px;
+  z-index: -10;
 }
 
 .power-increase {
@@ -174,6 +174,7 @@
   margin: 2px;
   width: fit-content;
   height: fit-content;
+  max-width: 720px;
 }
 
 .page-break {
@@ -291,3 +292,42 @@
 small {
   font-size: 0.7em;
 }
+
+#craftedSandwich img {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+div.tweet {
+  /* display: none; */
+  text-align: center;
+}
+
+div.tweet button {
+  /* font-family: serif; */
+  text-align: end;
+  border: none;
+  font-size: 12px;
+  background-color: #1DA1F2;
+  padding: 6px 16px;
+  border-radius: 100vh;
+  color: white;
+  cursor: pointer;
+}
+
+i.fa-twitter {
+  font-size: 12px;
+}
+#power-flavors-description {
+  position: absolute;
+  width: fit-content;
+  top: 25px;
+  left: 46px;
+  /* font-style: italic; */
+  font-weight: initial;
+  border: 1px dashed;
+  border-radius: 25px;
+  padding: 4px;
+  font-size: 12px;
+}
+

@@ -4,6 +4,9 @@ import CONDIMENTS from './data/condiments.json';
 import FLAVORS from './data/flavors.json';
 import POWERS from './data/powers.json';
 import TYPES from './data/types.json';
+import sandwichPNG from './img/sandwich1.jpg';
+import COMPRESS from './data/compressWord.json';
+import DECOMPRESS from './data/decompressWord.json';
 
 export const oneTwoFirst = [
   "31",
@@ -28,65 +31,76 @@ export const oneTwoFirst = [
 ];
 
 export const FLAVOR_TABLE = {
-  "甘味": {
+  "Sweet": {
     "Salty": "Egg",
     "Sour": "Catch",
     "Bitter": "Egg",
     "Hot": "Raid",
   },
   "Salty": {
-    "甘味": "Encounter",
+    "Sweet": "Encounter",
     "Sour": "Encounter",
     "Bitter": "Exp",
     "Hot": "Encounter",
   },
   "Sour": {
-    "甘味": "Catch",
+    "Sweet": "Catch",
     "Salty": "Teensy",
     "Bitter": "Teensy",
     "Hot": "Teensy",
   },
   "Bitter": {
-    "甘味": "Item",
+    "Sweet": "Item",
     "Salty": "Exp",
     "Sour": "Item",
     "Hot": "Item",
   },
   "Hot": {
-    "甘味": "Raid",
+    "Sweet": "Raid",
     "Salty": "Humungo",
     "Sour": "Humungo",
     "Bitter": "Humungo",
   },
 };
 
+export const FLAVOR_TABLE_EZ = {
+  "Egg": "sweet-salty/bitter",
+  "Catch": "sweet/sour",
+  "Raid": "sweet/hot",
+  "Encounter": "salty-sweet/sour/hot",
+  "Exp": "salty/bitter",
+  "Teensy": "sour-salty/bitter/hot",
+  "Item": "bitter-sweet/sour/hot",
+  "Humungo": "hot-salty/sour/bitter",
+};
+
 export const FLAVOR_PRIORITY_TABLE = {
-  "甘味": {
-    "Salty": "甘味",
-    "Sour": "甘味",
-    "Bitter": "甘味",
-    "Hot": "甘味",
+  "Sweet": {
+    "Salty": "Sweet",
+    "Sour": "Sweet",
+    "Bitter": "Sweet",
+    "Hot": "Sweet",
   },
   "Salty": {
-    "甘味": "甘味",
+    "Sweet": "Sweet",
     "Sour": "Salty",
     "Bitter": "Salty",
     "Hot": "Salty",
   },
   "Sour": {
-    "甘味": "甘味",
+    "Sweet": "Sweet",
     "Salty": "Salty",
     "Bitter": "Sour",
     "Hot": "Sour",
   },
   "Bitter": {
-    "甘味": "甘味",
+    "Sweet": "Sweet",
     "Salty": "Salty",
     "Sour": "Sour",
     "Hot": "Bitter",
   },
   "Hot": {
-    "甘味": "甘味",
+    "Sweet": "Sweet",
     "Salty": "Salty",
     "Sour": "Sour",
     "Bitter": "Bitter",
@@ -94,16 +108,16 @@ export const FLAVOR_PRIORITY_TABLE = {
 };
 
 export const ALIAS_TO_FULL = { // power alias
-  "Egg": "タマゴパワー",
-  "Catch": "ほかくパワー",
-  "Item": "おとしものパワー",
-  "Humungo": "でかでかパワー",
-  "Teensy": "ちびちびパワー",
-  "Raid": "レイドパワー",
-  "Encounter": "そうぐうパワー",
-  "Exp": "けいけんちパワー",
-  "Title": "二つ名パワー",
-  "Sparkling": "かがやきパワー",
+  "Egg": "Egg Power",
+  "Catch": "Catching Power",
+  "Item": "Item Drop Power",
+  "Humungo": "Humungo Power",
+  "Teensy": "Teensy Power",
+  "Raid": "Raid Power",
+  "Encounter": "Encounter Power",
+  "Exp": "Exp. Point Power",
+  "Title": "Title Power",
+  "Sparkling": "Sparkling Power",
 };
 
 export const FULL_TO_ALIAS = { // power alias
@@ -122,7 +136,7 @@ export const FULL_TO_ALIAS = { // power alias
 export const COLORS = {
   // flavors (5)
   "Salty": "#e0ded4",
-  "甘味": "#f79bcd",
+  "Sweet": "#f79bcd",
   "Hot": "rgba(200, 61, 18, 0.77)",
   "Bitter": "rgb(166, 200, 72)",
   "Sour": "#dbc60f",
@@ -136,33 +150,33 @@ export const COLORS = {
   "Encounter": "#dfdf50",
   "Exp": "tomato",
   "Title": "sandybrown",
-  "Sparkling": "cyan",
   "Shiny": "cyan",
+  "Sparkling": "cyan",
   // types (18)
-	"ノーマル": '#A8A77A',
-	"ほのお": '#EE8130',
-	"みず": '#6390F0',
-	"でんき": '#F7D02C',
-	"くさ": '#7AC74C',
-	"こおり": '#96D9D6',
-	"かくとう": 'rgba(194, 46, 40, 0.73)', //'#C22E28',
-	"どく": 'rgba(163, 62, 161, 0.81)', //'#A33EA1',
-	"じめん": '#E2BF65',
-	"ひこう": '#A98FF3',
-	"エスパー": '#F95587',
-	"むし": '#A6B91A',
-	"いわ": '#B6A136',
-	"ゴースト": 'rgba(115, 87, 151, 0.71)', //'#735797',
-	"ドラゴン": 'rgba(118, 73, 225, 0.83)', //'#6F35FC',
-	"あく": 'rgba(112, 87, 70, 0.88)', //'#705746',
-	"はがね": '#B7B7CE',
-	"フェアリー": '#D685AD',
+	"Normal": '#A8A77A',
+	"Fire": '#EE8130',
+	"Water": '#6390F0',
+	"Electric": '#F7D02C',
+	"Grass": '#7AC74C',
+	"Ice": '#96D9D6',
+	"Fighting": 'rgba(194, 46, 40, 0.73)', //'#C22E28',
+	"Poison": 'rgba(163, 62, 161, 0.81)', //'#A33EA1',
+	"Ground": '#E2BF65',
+	"Flying": '#A98FF3',
+	"Psychic": '#F95587',
+	"Bug": '#A6B91A',
+	"Rock": '#B6A136',
+	"Ghost": 'rgba(115, 87, 151, 0.71)', //'#735797',
+	"Dragon": 'rgba(118, 73, 225, 0.83)', //'#6F35FC',
+	"Dark": 'rgba(112, 87, 70, 0.88)', //'#705746',
+	"Steel": '#B7B7CE',
+	"Fairy": '#D685AD',
   "All Types": 'aquamarine',
   "All Other Types": 'aquamarine',
 };
 
 export const TYPE_EXCEPTIONS = {
-  "39": ["ひこう", "どく", "かくとう"], // I'm convinced this is a game むし and it's only counting the flavors on apple once
+  "39": ["Flying", "Poison", "Fighting"], // I'm convinced this is a game bug and it's only counting the flavors on apple once
 };
 
 export const getFillings = strArr => {
@@ -180,7 +194,9 @@ export const getFillings = strArr => {
 export const getCondiments = strArr => {
   const ret = [];
   for (const str of strArr) {
-    const condiment = CONDIMENTS.filter(x => x.name === str)[0];
+    // const condiment = CONDIMENTS.filter(x => x.name === str)[0];
+    const condiment = CONDIMENTS.filter(x => x.name === DECOMPRESS[str])[0];
+    
     if (condiment) {
       ret.push({ ...condiment });
     }
@@ -202,7 +218,9 @@ export const getIngredientsFromRecipe = recipe => {
     const cNames = condimentStr.split(",");
 
     for (const str of fNames) {
-      const name = str.split("-")[0];
+      // const name = str.split("-")[0];
+      const name = DECOMPRESS[str.split("-")[0]];
+      
       let pieces = str.split("-")[1];
       if (pieces) { pieces = parseInt(pieces); }
       const filling = FILLINGS.filter(x => x.name === name)[0];
@@ -217,6 +235,21 @@ export const getIngredientsFromRecipe = recipe => {
   }
 
   return undefined;
+};
+
+export const getRecipeFromIngredients = ingredients => {
+  const condiments = ingredients.condiments;
+  const fillings = ingredients.fillings;
+  if (condiments.length === 0) { return undefined; }
+
+  const fArr = [];
+  for (const f of fillings) {
+    // fArr.push(`${f.name}-${f.pieces}`);
+    fArr.push(`${COMPRESS[f.name]}-${f.pieces}`);
+  }
+
+  // return `${fArr.join(",")}_${condiments.map(x => x.name).join(",")}`;
+  return `${fArr.join(",")}_${condiments.map(x => COMPRESS[x.name]).join(",")}`;
 };
 
 // returns max amount of pieces on sandwich if none fall off
@@ -378,7 +411,7 @@ const calculateLevels = (types, sandwich) => {
 
   let levels = [1, 1, 1];
 
-  if (stars === 3) {
+  if (stars >= 3) {
     // regular
     if (firstType.amount < 180) {
       levels = [1, 1, 1];
@@ -389,10 +422,10 @@ const calculateLevels = (types, sandwich) => {
         levels = [2, 1, 1];
       }
     } else if (firstType.amount > 280 && firstType.amount < 380) {
-      if (thirdType.amount < 180 ) {
-        levels = [2, 2, 1];
-      } else {
+      if (thirdType.amount >= 180 ) {
         levels = [2, 2, 2];
+      } else {
+        levels = [2, 2, 1];
       }
     } else if (firstType.amount >= 380 && firstType.amount < 460) {
       if (secondType.amount >= 380 && thirdType.amount >= 380) {
@@ -476,7 +509,7 @@ const calculateTypes = (baseTypes, sandwich) => {
 
   let newTypes = [];
   
-  if (stars === 3) {
+  if (stars >= 3) {
     // 3-star
     if (mainTypeAmount > 480) { // mono type
       newTypes = [firstType, firstType, firstType];
@@ -484,26 +517,31 @@ const calculateTypes = (baseTypes, sandwich) => {
       newTypes = [firstType, firstType, thirdType];
     } else {
       newTypes = [firstType, thirdType, secondType];
+      let split = false;
 
-      // this is bs, and definitely not the final way for this, but hey, all tests pass for now
-      if (mainTypeAmount > 100) {
-        if (oneTwoDiff >= 100) {
+      // still not 100%, but better
+      if (mainTypeAmount > 105 && oneTwoDiff > 105) {
           newTypes = [firstType, firstType, thirdType];
-        } else if (oneTwoDiff >= 82) {
-          newTypes = [firstType, thirdType, firstType];
-        } else if (oneTwoDiff >= 72) {
-          newTypes = [firstType, thirdType, secondType];
+      } else if (mainTypeAmount >= 100 && mainTypeAmount <= 105) {
+        if (oneTwoDiff >= 80 && secondType.amount <= 21) {
+          split = true;
         }
-      } else {
-        if (oneTwoDiff >= 72 && secondPowerAmount > 60 && thirdPowerAmount > 60) {
-          if (Math.abs(secondPowerAmount - thirdPowerAmount) <= 10) {
-            newTypes = [firstType, thirdType, secondType];
-          } else {
-            newTypes = [firstType, thirdType, firstType]
+      } else if (mainTypeAmount >= 90 && mainTypeAmount < 100) {
+        if (oneTwoDiff >= 78 && secondType.amount <= 16) {
+          split = true;
           }
-        } else if (oneTwoDiff >= 72) {
-          newTypes = [firstType, thirdType, firstType]
+      } else if (mainTypeAmount >= 80 && mainTypeAmount < 90) {
+        if (oneTwoDiff >= 74 && secondType.amount <= 9) {
+          split = true;
         }
+      } else if (mainTypeAmount >= 74 && mainTypeAmount < 80) {
+        if (oneTwoDiff >= 72 && secondType.amount <= 5) {
+          split = true;
+        }
+      }
+
+      if (split) {
+        newTypes = [firstType, thirdType, firstType];
       }
     }
   } else if (stars === 2) {
@@ -598,6 +636,11 @@ export const craftSandwich = (fillings, condiments, sums, presetSandwich) => {
     stars = 1;
   } else if (maxTotalPieces > 1 && piecesDropped > totalPieces / 2) {
     stars = 2;
+  } else {
+    const highTastes = sums.tastes.slice(0).filter(x => x.amount >= 100);
+    if (highTastes.length === 5) {
+      stars = 4;
+    }
   }
 
   const formattedTypes = sums.types.slice(0);
@@ -647,7 +690,7 @@ export const craftSandwich = (fillings, condiments, sums, presetSandwich) => {
         level: 1
       }
     }).filter((x, i) => i < 3),
-    imageUrl: SANDWICHES[0].imageUrl,
+    imageUrl: sandwichPNG,
     piecesDropped,
     piecesOverflow: sums.overflow,
     totalPieces,
@@ -758,12 +801,12 @@ export const isFilling = obj => {
 };
 
 export const isFlavor = obj => {
-  const str = obj.flavor || obj;
+  const str = obj?.flavor || obj;
   return FLAVORS.indexOf(str) !== -1;
 };
 
 export const isPower = obj => {
-  const str = obj.type || obj;
+  const str = obj?.type || obj;
 
   for (const power of POWERS) {
     if (power.indexOf(str) !== -1) {
@@ -775,7 +818,7 @@ export const isPower = obj => {
 };
 
 export const isType = obj => {
-  const str = obj.type || obj;
+  const str = obj?.type || obj;
   return TYPES.indexOf(str) !== -1;
 };
 

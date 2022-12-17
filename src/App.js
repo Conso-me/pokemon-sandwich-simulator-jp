@@ -4,13 +4,17 @@ import CONDIMENTS from './data/condiments.json';
 import TYPES from './data/types.json';
 import FLAVORS from './data/flavors.json';
 import { useEffect, useState } from 'react';
-import { getCondiments, getFillings,
+import { getCondiments, getFillings, getRecipeFromIngredients,
   ALIAS_TO_FULL, COLORS, oneTwoFirst, getIngredientsSums, craftSandwich, checkPresetSandwich,
-  copyTextToClipboard, hasRelevance, getCategory, getIngredientsFromRecipe } from './util';
+  copyTextToClipboard, hasRelevance, getCategory, getIngredientsFromRecipe
+} from './util';
 import { runTests } from './test/tests';
 import Card from './components/Card';
 import './App.css';
 import Bubble from './components/Bubble';
+import TRANSRATE from './data/translate_jp.json';
+import html2canvas from 'html2canvas';
+
 
 // per player
 const MAX_FILLINGS = 6;
@@ -23,6 +27,7 @@ function App() {
   const [alwaysShowCustomSandwich, setAlwaysShowCustomSandwich] = useState(false);
   const [simpleMode, setSimpleMode] = useState(true);
   const [showSearchPanel, setShowSearchPanel] = useState(false);
+  const [showEffectFilter, setShowEffectFilter] = useState(true);
   const [megaSandwichMode, setMegaSandwichMode] = useState(false);
 
   const [activeFillings, setActiveFillings] = useState([]);
@@ -57,6 +62,12 @@ function App() {
   }, [simpleMode]);
 
   useEffect(() => {
+    if (!showEffectFilter) {
+      setActiveKey({});
+    }
+  }, [showEffectFilter]);
+
+  useEffect(() => {
     const tempResults = [];
 
     let sandwichList = [];
@@ -68,7 +79,7 @@ function App() {
             sandwichList.push(s);
             continue;
           }
-        }        
+        }
       }
     } else {
       sandwichList = SANDWICHES;
@@ -117,10 +128,24 @@ function App() {
     if (activeSandwich) {
       const activeSandwichElement = document.getElementById(`sandwich-${activeSandwich}`);
       if (activeSandwichElement) {
-        activeSandwichElement.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
+        activeSandwichElement.scrollIntoView({ behavior: "smooth", block: "end", inline: "nearest" });
       }
     }
   }, [results]);
+
+  useEffect(() => {
+    //get recipe from url parameter 
+    const url = new URL(window.location.href);
+    const urlParams = url.searchParams;
+    const recipe = urlParams.get('recipe');
+    if (recipe) {
+      loadRecipe(recipe);
+    }
+
+    // urlParams.delete('recipe');
+    // window.history.replaceState('', '', url.pathname);
+
+  }, []);
 
   const pulse = () => {
     setHeartbeat(heartbeat + 1);
@@ -140,20 +165,21 @@ function App() {
     );
   };
 
-  const checkPowerOfAmount = (checkArr, power) =>{
+  const checkAmountOfPower = (checkArr, power) => {
     let retClass = 'ingredient-power-bg';
     const activePower = checkArr["powers"].find((u) => u.type === power);
 
-    if (hasRelevance(checkArr, activeKey) && activePower !== undefined) { 
-      if(activePower.amount > 0) {
+    if (hasRelevance(checkArr, activeKey) && activePower !== undefined) {
+      if (activePower.amount > 0) {
         retClass += ' power-increase';
       }
-      if(activePower.amount < 0){
+      if (activePower.amount < 0) {
         retClass += ' power-decrease';
       }
-    } 
+    }
+
     return retClass;
-  }
+  };
 
   const renderFilling = (filling, index, active) => {
     let className = "ingredient";
@@ -166,37 +192,36 @@ function App() {
       divClass = 'ingredient-div ingredient-blur';
     }
 
-    let ingredientPowerClass = "";
-    ingredientPowerClass += checkPowerOfAmount(filling,activeKey["power"]);
+    const ingredientPowerClass = checkAmountOfPower(filling, activeKey["power"]);
 
     return (
-    <div className={divClass} key={`filling-${index}-${active ? 'active' : 'dormant'}`}>
-      <div className={ingredientPowerClass}></div>
-      <img
-        alt={filling.name}
-        title={filling.name}
-        src={filling.imageUrl}
-        className={className}
-        onClick={() => {
-          const tempActiveFillings = activeFillings.slice(0);
+      <div className={divClass} key={`filling-${index}-${active ? 'active' : 'dormant'}`}>
+        <div className={ingredientPowerClass}></div>
+        <img
+          alt={TRANSRATE[filling.name] ? TRANSRATE[filling.name] : filling.name}
+          title={TRANSRATE[filling.name] ? TRANSRATE[filling.name] : filling.name}
+          src={filling.imageUrl}
+          className={className}
+          onClick={() => {
+            const tempActiveFillings = activeFillings.slice(0);
 
-          if (active) {
-            var indexToRemove = tempActiveFillings.indexOf(filling);
-            if (indexToRemove !== -1) {
-              tempActiveFillings.splice(indexToRemove, 1);
+            if (active) {
+              var indexToRemove = tempActiveFillings.indexOf(filling);
+              if (indexToRemove !== -1) {
+                tempActiveFillings.splice(indexToRemove, 1);
+              }
+            } else {
+              if (tempActiveFillings.length >= MAX_FILLINGS * NUM_PLAYERS) { return; }
+              tempActiveFillings.push({ // done this way to avoid modifying base array
+                ...filling
+              });
             }
-          } else {
-            if (tempActiveFillings.length >= MAX_FILLINGS * NUM_PLAYERS) { return; }
-            tempActiveFillings.push({ // done this way to avoid modifying base array
-              ...filling
-            });
-          }
 
-          setActiveFillings(tempActiveFillings);
-        }}
-      />
-      {active && <div className='numbering numbering-icon'>{index + 1}</div>}
-    </div>);
+            setActiveFillings(tempActiveFillings);
+          }}
+        />
+        {active && <div className='numbering numbering-icon'>{index + 1}</div>}
+      </div>);
   };
 
   const renderCondiments = () => {
@@ -219,33 +244,32 @@ function App() {
       divClass = 'ingredient-div ingredient-blur';
     }
 
-    let ingredientPowerClass = "";
-    ingredientPowerClass += checkPowerOfAmount(condiment,activeKey["power"]);
-    
+    const ingredientPowerClass = checkAmountOfPower(condiment, activeKey["power"]);
+
     return (
-    <div className={divClass} key={`condiment-${index}-${active ? 'active' : 'dormant'}`}>
-      <div className={ingredientPowerClass}></div>
-      <img
-        alt={condiment.name}
-        title={condiment.name}
-        src={condiment.imageUrl}
-        className={className}
-        onClick={() => {
-          const tempActiveCondiments = activeCondiments.slice(0);
-          if (active) {
-            var indexToRemove = tempActiveCondiments.indexOf(condiment);
-            if (indexToRemove !== -1) {
-              tempActiveCondiments.splice(indexToRemove, 1);
+      <div className={divClass} key={`condiment-${index}-${active ? 'active' : 'dormant'}`}>
+        <div className={ingredientPowerClass}></div>
+        <img
+          alt={TRANSRATE[condiment.name] ? TRANSRATE[condiment.name] : condiment.name}
+          title={TRANSRATE[condiment.name] ? TRANSRATE[condiment.name] : condiment.name}
+          src={condiment.imageUrl}
+          className={className}
+          onClick={() => {
+            const tempActiveCondiments = activeCondiments.slice(0);
+            if (active) {
+              var indexToRemove = tempActiveCondiments.indexOf(condiment);
+              if (indexToRemove !== -1) {
+                tempActiveCondiments.splice(indexToRemove, 1);
+              }
+            } else {
+              if (tempActiveCondiments.length >= MAX_CONDIMENTS * NUM_PLAYERS) { return; }
+              tempActiveCondiments.push(condiment);
             }
-          } else {
-            if (tempActiveCondiments.length >= MAX_CONDIMENTS * NUM_PLAYERS) { return; }
-            tempActiveCondiments.push(condiment);
-          }
-          setActiveCondiments(tempActiveCondiments);
-        }}
-      />
-      {active && <div className='numbering numbering-icon'>{index + activeFillings.length + 1}</div>}
-    </div>
+            setActiveCondiments(tempActiveCondiments);
+          }}
+        />
+        {active && <div className='numbering numbering-icon'>{index + activeFillings.length + 1}</div>}
+      </div>
     );
   };
 
@@ -276,8 +300,8 @@ function App() {
 
     return (
       <div className="bubble-row" key={key}>
-        <div className="bubble chain-a" style={{ backgroundColor: powerColor }}>{`${effect.name}: `}</div>
-        <div className="bubble chain-b" style={{ backgroundColor: typeColor, display: effect.type === "" ? "none" : "" }}>{`${effect.type} `}</div>
+        <div className="bubble chain-a" style={{ backgroundColor: powerColor }}>{`${TRANSRATE[effect.name] ? TRANSRATE[effect.name] : effect.name}: `}</div>
+        <div className="bubble chain-b" style={{ backgroundColor: typeColor, display: effect.type === "" ? "none" : "" }}>{`${TRANSRATE[effect.type] ? TRANSRATE[effect.type] : effect.type} `}</div>
         <div className="bubble chain-c" style={{ backgroundColor: levelColor }}>{`Lv. ${effect.level}`}</div>
       </div>
     );
@@ -296,11 +320,11 @@ function App() {
     }
 
     return (
-      <div className='card' style={{ display: "flex" }}>
+      <div id="craftedSandwich" className='card' style={{ display: "flex" }}>
         <img alt={sandwich.name} src={sandwich.imageUrl} style={{ width: "100px" }} />
         <div>
           <div className="bubble bubble-header" onClick={() => {
-            if(window.event.ctrlKey) { runTests(); }
+            if (window.event.ctrlKey) { runTests(); }
           }}
             style={{ backgroundColor: "tan" }}>{display}</div>
           {sandwich.effects.length > 0 && <div>{sandwich.effects.map((x, i) => renderSandwichBubble(x, i))}</div>}
@@ -344,7 +368,7 @@ function App() {
 
     return (
       <div>
-        <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}>
+        <div style={{ display: "block", flexWrap: "wrap", justifyContent: "center" }}>
           {ingredients.map((x, i) => <Card ingredient={x} number={i} fillings={activeFillings}
             simpleMode={simpleMode}
             updatePieces={() => pulse()}
@@ -359,11 +383,11 @@ function App() {
           {!advancedIngredients && <br className='page-break' />}
           {showResults && !simpleMode
             && <Card sums={sums} activeSandwich={activeSandwich}
-                fillings={activeFillings} condiments={activeCondiments} 
-                detail={!simpleMode && advancedIngredients}
-                onClickBubble={key => toggleActiveKey(key)}
-                activeKey={activeKey}
-              />}
+              fillings={activeFillings} condiments={activeCondiments}
+              detail={!simpleMode && advancedIngredients}
+              onClickBubble={key => toggleActiveKey(key)}
+              activeKey={activeKey}
+            />}
         </div>
         <div className="bubble-row" style={{ justifyContent: "center" }}>
           {renderSandwich(foundSandwich)}
@@ -385,8 +409,10 @@ function App() {
         const fillings = getFillings(sandwich.fillings);
         setActiveCondiments(condiments);
         setActiveFillings(fillings);
-      }} style={{ backgroundColor: highlight ? "yellow" : "#80808030",
-        fontWeight: isWeird ? "bold" : "", color: hasMultiIngredients ? "" : ""}}>
+      }} style={{
+        backgroundColor: highlight ? "yellow" : "#80808030",
+        fontWeight: isWeird ? "bold" : "", color: hasMultiIngredients ? "" : ""
+      }}>
         {`#${sandwich.number} - ${sandwich.name}`}
       </div>
     );
@@ -412,7 +438,7 @@ function App() {
       default:
     }
   };
-  
+
 
   const renderSearch = () => {
     if (!showSearchPanel) { return null; }
@@ -426,7 +452,7 @@ function App() {
           <input type="text" id="effectSearch" placeholder='Search effects (egg, raid, etc)' className='search-bar'
             onChange={ev => search(ev, "effect")} style={{ width: "250px" }}
           />
-          <input type="text" id="typeSearch" placeholder='Search types (ノーマル, あく, etc)' className='search-bar'
+          <input type="text" id="typeSearch" placeholder='Search types (normal, dark, etc)' className='search-bar'
             onChange={ev => search(ev, "type")} style={{ width: "250px" }}
           />
           <input type="text" id="ingredientSearch" placeholder='Search ingredients (ham, bacon, etc)' className='search-bar'
@@ -449,7 +475,6 @@ function App() {
           {FLAVORS.map((flavor) => (
             <Bubble
               label={flavor}
-              labelJP={flavor}
               key={flavor}
               isFlavor
               onClick={() => toggleActiveKey(flavor)}
@@ -460,14 +485,13 @@ function App() {
           ))}
         </div>
         <div className="bubble-row complex-row">
-          {Object.entries(ALIAS_TO_FULL).map((key) => (
+          {Object.keys(ALIAS_TO_FULL).map((power) => (
             <Bubble
-              label={key[0]}
-              labelJP={key[1]}
-              key={key[0]}
-              onClick={() => toggleActiveKey(key[0])}
+              label={power}
+              key={power}
+              onClick={() => toggleActiveKey(power)}
               selected={
-                activeKey && Object.values(activeKey).indexOf(key[0]) !== -1
+                activeKey && Object.values(activeKey).indexOf(power) !== -1
               }
             />
           ))}
@@ -476,7 +500,6 @@ function App() {
           {TYPES.map((type) => (
             <Bubble
               label={type}
-              labelJP={type}
               key={type}
               isType
               onClick={() => toggleActiveKey(type)}
@@ -491,14 +514,9 @@ function App() {
   };
 
   const saveRecipe = () => {
-    if (activeCondiments.length === 0) { return; }
+    const copyStr = getRecipeFromIngredients({ fillings: activeFillings, condiments: activeCondiments });
+    if (!copyStr) { return; }
 
-    const fArr = [];
-    for (const f of activeFillings) {
-      fArr.push(`${f.name}-${f.pieces}`);
-    }
-
-    const copyStr = `${fArr.join(",")}_${activeCondiments.map(x => x.name).join(",")}`;
     console.log("Saving recipe", copyStr);
     copyTextToClipboard(copyStr);
 
@@ -507,8 +525,11 @@ function App() {
     }
   };
 
-  const loadRecipe = () => {
-    const recipe = window.prompt("Enter/paste recipe:", "");
+  const loadRecipe = recipe => {
+    if (!recipe) {
+      recipe = window.prompt("Enter/paste recipe:", "");
+    }
+
     const ingredients = getIngredientsFromRecipe(recipe);
     if (ingredients) {
       const fillings = ingredients.fillings;
@@ -523,28 +544,114 @@ function App() {
     }
   }
 
+const getCraftedSandwichEffects = () => {
+
+  let effects = "";
+
+  const sums = getIngredientsSums(activeFillings, activeCondiments);
+  activeSums = sums;
+  const foundSandwich = checkPresetSandwich(sums, activeFillings, activeCondiments);
+  const generatedSandwich = craftSandwich(activeFillings, activeCondiments, sums, foundSandwich);
+
+  effects = generatedSandwich.effects.map((x) => sandwichEffect(x)).join("");
+
+  return effects;
+}
+
+const sandwichEffect = (effect) => {
+
+  let text = "";
+  text += TRANSRATE[effect.name] ? TRANSRATE[effect.name] : effect.name;
+  text += " ";
+  text += TRANSRATE[effect.type] ? TRANSRATE[effect.type] : effect.type;
+  text += " ";
+  text += "Lv."+ effect.level;
+  text += "%0A";
+  return text;
+
+};
+
+
+  const sandwichTweet = () => {
+    if (activeCondiments.length === 0) { return; }
+
+    const copyStr = getRecipeFromIngredients({ fillings: activeFillings, condiments: activeCondiments });
+
+    if (!DISABLE_ALERTS) {
+      alert("完成したサンドイッチ画像をクリップボードにコピーしました\nツイートする時に各自でペーストしてください");
+    }
+
+    let client_w = document.getElementById('craftedSandwich').clientWidth;
+    let client_h = document.getElementById('craftedSandwich').clientHeight;
+    
+    html2canvas(document.querySelector("#craftedSandwich"), {
+      allowTaint: true
+      , scale: 1
+      , width: client_w + 4
+      , height: client_h + 70
+      // , canvas: document.getElementById('tweet-text')
+    }).then(canvas => {
+      //. Canvas
+      if (!canvas || !canvas.getContext) {
+        return false;
+      }
+
+      canvas.toBlob(function (blob) {
+        try {
+          navigator.clipboard.write([
+            new ClipboardItem({
+              'image/png': blob
+            })
+          ]).then(
+            () => {
+              /* success */
+              // 出力結果を取得
+              let text = getCraftedSandwichEffects();
+              // オプションパラメータを設定
+              let hashtags = "ポケモンSV,サンドイッチシミュ";
+              let url = encodeURIComponent("https://conso-me.github.io/pokemon-sandwich-simulator-jp/?recipe=" + copyStr)  // location.hrefは今いるURL
+              // URLを生成して遷移
+              window.open("https://twitter.com/intent/tweet?text=" + text + "&url=" + url + "%0A&hashtags=" + hashtags);
+            },
+            () => {
+              /* failure */
+            }
+          );
+        } catch (err) {
+          console.log(err);
+        }
+      });
+    });
+  };
+
   const renderSettings = () => {
     return (
       <div className='settings-bar'>
-        <button className='button-spacing' onClick={() => setSimpleMode(!simpleMode)}>Toggle Simple Mode: {simpleMode ? "On" : "Off"}</button>
-        <button className='button-spacing' onClick={() => setShowSearchPanel(!showSearchPanel)}>Toggle Search Panel</button>
-        <button className='button-spacing' onClick={() => setMegaSandwichMode(!megaSandwichMode)}>Toggle Multiplayer Mode: {megaSandwichMode ? "On" : "Off"}</button>
-        <button className='button-spacing' onClick={() => loadRecipe()}>Load Recipe</button>
-        <button className='button-spacing' onClick={() => saveRecipe()}>Save Recipe</button>
+        <button className='button-spacing' onClick={() => setSimpleMode(!simpleMode)}>シンプルモード: {simpleMode ? "ON" : "OFF"}</button>
+        <button className='button-spacing' onClick={() => setShowSearchPanel(!showSearchPanel)}>サンドイッチ一覧</button>
+        {!simpleMode && <button className='button-spacing' onClick={() => setShowEffectFilter(!showEffectFilter)}>効果フィルター</button>}
+        <button className='button-spacing' onClick={() => setMegaSandwichMode(!megaSandwichMode)}>マルチプレイヤー: {megaSandwichMode ? "ON" : "OFF"}</button>
+        <button className='button-spacing' onClick={() => loadRecipe()}>レシピ読込</button>
+        <button className='button-spacing' onClick={() => saveRecipe()}>レシピ保存</button>
+        <div className="tweet" id="tweet">
+          <button className='tweet' id="twitter-share-button" onClick={() => sandwichTweet()}><i className="fab fa-twitter"></i> 作ったサンドイッチをつぶやく</button>
+        </div>
       </div>
     );
   };
 
   return (
     <div className="App">
-      {!simpleMode && renderComplexSearch()}
+      {!simpleMode && showEffectFilter && renderComplexSearch()}
       {renderFillings()}
       {renderCondiments()}
       {renderActive()}
       {renderMath()}
       {renderSearch()}
       {renderSettings()}
-      <small><a href="https://github.com/Conso-me/pokemon-sandwich-simulator-jp">Source Code</a></small>
+      <small><a href="https://github.com/cecilbowen/pokemon-sandwich-simulator">Source Code</a></small>
+      <p><small><a href="https://github.com/conso-me/pokemon-sandwich-simulator-jp">Source Code translate jp</a></small></p>
+      <canvas className="tweet-text" id="tweet-text" style={{ display: 'block' }}></canvas>
     </div>
   );
 }

@@ -7,17 +7,17 @@
     "effects": [
       {
         "name": "Humungo Power",
-        "type": "エスパー",
+        "type": "Psychic",
         "level": "1"
       },
       {
         "name": "Exp. Point Power",
-        "type": "かくとう",
+        "type": "Fighting",
         "level": "1"
       },
       {
         "name": "Encounter Power",
-        "type": "みず",
+        "type": "Water",
         "level": "1"
       }
     ],
@@ -43,16 +43,16 @@
     "effects": [
       {
         "name": "Catching Power",
-        "type": "かくとう",
+        "type": "Fighting",
         "level": "1"
       },
       {
         "name": "Item Drop Power",
-        "type": "エスパー",
+        "type": "Psychic",
         "level": "1"
       },
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "1"
       }
@@ -78,18 +78,18 @@
     "cost": "1450",
     "effects": [
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "1"
       },
       {
         "name": "Encounter Power",
-        "type": "かくとう",
+        "type": "Fighting",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "ドラゴン",
+        "type": "Dragon",
         "level": "1"
       }
     ],
@@ -115,16 +115,16 @@
     "effects": [
       {
         "name": "Item Drop Power",
-        "type": "かくとう",
+        "type": "Fighting",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "いわ",
+        "type": "Rock",
         "level": "1"
       },
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "1"
       }
@@ -151,17 +151,17 @@
     "effects": [
       {
         "name": "Exp. Point Power",
-        "type": "ドラゴン",
+        "type": "Dragon",
         "level": "1"
       },
       {
         "name": "Encounter Power",
-        "type": "でんき",
+        "type": "Electric",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "あく",
+        "type": "Dark",
         "level": "1"
       }
     ],
@@ -187,17 +187,17 @@
     "effects": [
       {
         "name": "Humungo Power",
-        "type": "あく",
+        "type": "Dark",
         "level": "1"
       },
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "1"
       },
       {
         "name": "Item Drop Power",
-        "type": "みず",
+        "type": "Water",
         "level": "1"
       }
     ],
@@ -219,17 +219,17 @@
     "effects": [
       {
         "name": "Catching Power",
-        "type": "エスパー",
+        "type": "Psychic",
         "level": "1"
       },
       {
         "name": "Encounter Power",
-        "type": "フェアリー",
+        "type": "Fairy",
         "level": "1"
       },
       {
         "name": "Teensy Power",
-        "type": "みず",
+        "type": "Water",
         "level": "1"
       }
     ],
@@ -251,17 +251,17 @@
     "effects": [
       {
         "name": "Raid Power",
-        "type": "こおり",
+        "type": "Ice",
         "level": "1"
       },
       {
         "name": "Encounter Power",
-        "type": "ドラゴン",
+        "type": "Dragon",
         "level": "1"
       },
       {
         "name": "Exp. Point Power",
-        "type": "エスパー",
+        "type": "Psychic",
         "level": "1"
       }
     ],
@@ -283,16 +283,16 @@
     "effects": [
       {
         "name": "Item Drop Power",
-        "type": "どく",
+        "type": "Poison",
         "level": "1"
       },
       {
         "name": "Humungo Power",
-        "type": "くさ",
+        "type": "Grass",
         "level": "1"
       },
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "1"
       }
@@ -315,17 +315,17 @@
     "effects": [
       {
         "name": "Encounter Power",
-        "type": "でんき",
+        "type": "Electric",
         "level": "1"
       },
       {
         "name": "Exp. Point Power",
-        "type": "いわ",
+        "type": "Rock",
         "level": "1"
       },
       {
         "name": "Raid Power",
-        "type": "フェアリー",
+        "type": "Fairy",
         "level": "1"
       }
     ],
@@ -347,17 +347,17 @@
     "effects": [
       {
         "name": "Encounter Power",
-        "type": "みず",
+        "type": "Water",
         "level": "1"
       },
       {
         "name": "Raid Power",
-        "type": "あく",
+        "type": "Dark",
         "level": "1"
       },
       {
         "name": "Exp. Point Power",
-        "type": "ゴースト",
+        "type": "Ghost",
         "level": "1"
       }
     ],
@@ -377,17 +377,17 @@
     "effects": [
       {
         "name": "Item Drop Power",
-        "type": "はがね",
+        "type": "Steel",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "くさ",
+        "type": "Grass",
         "level": "1"
       },
       {
         "name": "Humungo Power",
-        "type": "じめん",
+        "type": "Ground",
         "level": "1"
       }
     ],
@@ -407,17 +407,17 @@
     "effects": [
       {
         "name": "Humungo Power",
-        "type": "むし",
+        "type": "Bug",
         "level": "1"
       },
       {
         "name": "Exp. Point Power",
-        "type": "かくとう",
+        "type": "Fighting",
         "level": "1"
       },
       {
         "name": "Item Drop Power",
-        "type": "じめん",
+        "type": "Ground",
         "level": "1"
       }
     ],
@@ -436,18 +436,18 @@
     "cost": "1400",
     "effects": [
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "1"
       },
       {
         "name": "Teensy Power",
-        "type": "ゴースト",
+        "type": "Ghost",
         "level": "1"
       },
       {
         "name": "Exp. Point Power",
-        "type": "フェアリー",
+        "type": "Fairy",
         "level": "1"
       }
     ],
@@ -467,17 +467,17 @@
     "effects": [
       {
         "name": "Teensy Power",
-        "type": "くさ",
+        "type": "Grass",
         "level": "1"
       },
       {
         "name": "Item Drop Power",
-        "type": "いわ",
+        "type": "Rock",
         "level": "1"
       },
       {
         "name": "Raid Power",
-        "type": "ひこう",
+        "type": "Flying",
         "level": "1"
       }
     ],
@@ -497,17 +497,17 @@
     "effects": [
       {
         "name": "Catching Power",
-        "type": "はがね",
+        "type": "Steel",
         "level": "1"
       },
       {
         "name": "Exp. Point Power",
-        "type": "むし",
+        "type": "Bug",
         "level": "1"
       },
       {
         "name": "Teensy Power",
-        "type": "ドラゴン",
+        "type": "Dragon",
         "level": "1"
       }
     ],
@@ -526,17 +526,17 @@
     "effects": [
       {
         "name": "Teensy Power",
-        "type": "でんき",
+        "type": "Electric",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "ドラゴン",
+        "type": "Dragon",
         "level": "1"
       },
       {
         "name": "Raid Power",
-        "type": "くさ",
+        "type": "Grass",
         "level": "1"
       }
     ],
@@ -555,17 +555,17 @@
     "effects": [
       {
         "name": "Item Drop Power",
-        "type": "いわ",
+        "type": "Rock",
         "level": "1"
       },
       {
         "name": "Teensy Power",
-        "type": "こおり",
+        "type": "Ice",
         "level": "1"
       },
       {
         "name": "Exp. Point Power",
-        "type": "むし",
+        "type": "Bug",
         "level": "1"
       }
     ],
@@ -584,16 +584,16 @@
     "effects": [
       {
         "name": "Exp. Point Power",
-        "type": "かくとう",
+        "type": "Fighting",
         "level": "1"
       },
       {
         "name": "Raid Power",
-        "type": "じめん",
+        "type": "Ground",
         "level": "1"
       },
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "1"
       }
@@ -613,17 +613,17 @@
     "effects": [
       {
         "name": "Humungo Power",
-        "type": "ひこう",
+        "type": "Flying",
         "level": "1"
       },
       {
         "name": "Item Drop Power",
-        "type": "みず",
+        "type": "Water",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "こおり",
+        "type": "Ice",
         "level": "1"
       }
     ],
@@ -642,17 +642,17 @@
     "effects": [
       {
         "name": "Raid Power",
-        "type": "みず",
+        "type": "Water",
         "level": "2"
       },
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "1"
       },
       {
         "name": "Item Drop Power",
-        "type": "はがね",
+        "type": "Steel",
         "level": "1"
       }
     ],
@@ -670,17 +670,17 @@
     "effects": [
       {
         "name": "Exp. Point Power",
-        "type": "むし",
+        "type": "Bug",
         "level": "2"
       },
       {
         "name": "Teensy Power",
-        "type": "エスパー",
+        "type": "Psychic",
         "level": "1"
       },
       {
         "name": "Raid Power",
-        "type": "でんき",
+        "type": "Electric",
         "level": "1"
       }
     ],
@@ -698,17 +698,17 @@
     "effects": [
       {
         "name": "Item Drop Power",
-        "type": "ドラゴン",
+        "type": "Dragon",
         "level": "2"
       },
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "1"
       },
       {
         "name": "Teensy Power",
-        "type": "でんき",
+        "type": "Electric",
         "level": "1"
       }
     ],
@@ -726,17 +726,17 @@
     "effects": [
       {
         "name": "Humungo Power",
-        "type": "はがね",
+        "type": "Steel",
         "level": "2"
       },
       {
         "name": "Exp. Point Power",
-        "type": "どく",
+        "type": "Poison",
         "level": "1"
       },
       {
         "name": "Raid Power",
-        "type": "いわ",
+        "type": "Rock",
         "level": "1"
       }
     ],
@@ -754,17 +754,17 @@
     "effects": [
       {
         "name": "Catching Power",
-        "type": "ゴースト",
+        "type": "Ghost",
         "level": "2"
       },
       {
         "name": "Humungo Power",
-        "type": "みず",
+        "type": "Water",
         "level": "1"
       },
       {
         "name": "Encounter Power",
-        "type": "ほのお",
+        "type": "Fire",
         "level": "1"
       }
     ],
@@ -782,17 +782,17 @@
     "effects": [
       {
         "name": "Encounter Power",
-        "type": "ほのお",
+        "type": "Fire",
         "level": "1"
       },
       {
         "name": "Item Drop Power",
-        "type": "ひこう",
+        "type": "Flying",
         "level": "1"
       },
       {
         "name": "Teensy Power",
-        "type": "エスパー",
+        "type": "Psychic",
         "level": "1"
       }
     ],
@@ -812,18 +812,18 @@
     "cost": "900",
     "effects": [
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "1"
       },
       {
         "name": "Raid Power",
-        "type": "ゴースト",
+        "type": "Ghost",
         "level": "1"
       },
       {
         "name": "Teensy Power",
-        "type": "こおり",
+        "type": "Ice",
         "level": "1"
       }
     ],
@@ -844,17 +844,17 @@
     "effects": [
       {
         "name": "Teensy Power",
-        "type": "ゴースト",
+        "type": "Ghost",
         "level": "1"
       },
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "1"
       },
       {
         "name": "Item Drop Power",
-        "type": "いわ",
+        "type": "Rock",
         "level": "1"
       }
     ],
@@ -875,16 +875,16 @@
     "effects": [
       {
         "name": "Item Drop Power",
-        "type": "どく",
+        "type": "Poison",
         "level": "1"
       },
       {
         "name": "Teensy Power",
-        "type": "くさ",
+        "type": "Grass",
         "level": "1"
       },
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "1"
       }
@@ -906,17 +906,17 @@
     "effects": [
       {
         "name": "Humungo Power",
-        "type": "じめん",
+        "type": "Ground",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "1"
       },
       {
         "name": "Raid Power",
-        "type": "あく",
+        "type": "Dark",
         "level": "1"
       }
     ],
@@ -937,17 +937,17 @@
     "effects": [
       {
         "name": "Humungo Power",
-        "type": "ドラゴン",
+        "type": "Dragon",
         "level": "2"
       },
       {
         "name": "Catching Power",
-        "type": "でんき",
+        "type": "Electric",
         "level": "1"
       },
       {
         "name": "Raid Power",
-        "type": "ほのお",
+        "type": "Fire",
         "level": "1"
       }
     ],
@@ -967,18 +967,18 @@
     "cost": "2800",
     "effects": [
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "2"
       },
       {
         "name": "Exp. Point Power",
-        "type": "ひこう",
+        "type": "Flying",
         "level": "1"
       },
       {
         "name": "Encounter Power",
-        "type": "フェアリー",
+        "type": "Fairy",
         "level": "1"
       }
     ],
@@ -999,17 +999,17 @@
     "effects": [
       {
         "name": "Item Drop Power",
-        "type": "エスパー",
+        "type": "Psychic",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "こおり",
+        "type": "Ice",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "いわ",
+        "type": "Rock",
         "level": "1"
       }
     ],
@@ -1030,16 +1030,16 @@
     "effects": [
       {
         "name": "Catching Power",
-        "type": "こおり",
+        "type": "Ice",
         "level": "2"
       },
       {
         "name": "Exp. Point Power",
-        "type": "フェアリー",
+        "type": "Fairy",
         "level": "1"
       },
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "1"
       }
@@ -1061,17 +1061,17 @@
     "effects": [
       {
         "name": "Teensy Power",
-        "type": "はがね",
+        "type": "Steel",
         "level": "2"
       },
       {
         "name": "Item Drop Power",
-        "type": "ほのお",
+        "type": "Fire",
         "level": "1"
       },
       {
         "name": "Exp. Point Power",
-        "type": "ひこう",
+        "type": "Flying",
         "level": "1"
       }
     ],
@@ -1092,17 +1092,17 @@
     "effects": [
       {
         "name": "Humungo Power",
-        "type": "フェアリー",
+        "type": "Fairy",
         "level": "1"
       },
       {
         "name": "Raid Power",
-        "type": "じめん",
+        "type": "Ground",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "みず",
+        "type": "Water",
         "level": "1"
       }
     ],
@@ -1122,17 +1122,17 @@
     "effects": [
       {
         "name": "Catching Power",
-        "type": "じめん",
+        "type": "Ground",
         "level": "1"
       },
       {
         "name": "Item Drop Power",
-        "type": "あく",
+        "type": "Dark",
         "level": "1"
       },
       {
         "name": "Exp. Point Power",
-        "type": "どく",
+        "type": "Poison",
         "level": "1"
       }
     ],
@@ -1152,17 +1152,17 @@
     "effects": [
       {
         "name": "Item Drop Power",
-        "type": "ゴースト",
+        "type": "Ghost",
         "level": "1"
       },
       {
         "name": "Humungo Power",
-        "type": "いわ",
+        "type": "Rock",
         "level": "1"
       },
       {
         "name": "Exp. Point Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "1"
       }
     ],
@@ -1182,17 +1182,17 @@
     "effects": [
       {
         "name": "Exp. Point Power",
-        "type": "ひこう",
+        "type": "Flying",
         "level": "1"
       },
       {
         "name": "Teensy Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "1"
       },
       {
         "name": "Item Drop Power",
-        "type": "ほのお",
+        "type": "Fire",
         "level": "1"
       }
     ],
@@ -1211,18 +1211,18 @@
     "cost": "1900",
     "effects": [
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "1"
       },
       {
         "name": "Encounter Power",
-        "type": "ひこう",
+        "type": "Flying",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "フェアリー",
+        "type": "Fairy",
         "level": "1"
       }
     ],
@@ -1242,17 +1242,17 @@
     "effects": [
       {
         "name": "Encounter Power",
-        "type": "ドラゴン",
+        "type": "Dragon",
         "level": "1"
       },
       {
         "name": "Teensy Power",
-        "type": "あく",
+        "type": "Dark",
         "level": "1"
       },
       {
         "name": "Exp. Point Power",
-        "type": "くさ",
+        "type": "Grass",
         "level": "1"
       }
     ],
@@ -1275,17 +1275,17 @@
     "effects": [
       {
         "name": "Raid Power",
-        "type": "かくとう",
+        "type": "Fighting",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "はがね",
+        "type": "Steel",
         "level": "1"
       },
       {
         "name": "Humungo Power",
-        "type": "あく",
+        "type": "Dark",
         "level": "1"
       }
     ],
@@ -1308,17 +1308,17 @@
     "effects": [
       {
         "name": "Teensy Power",
-        "type": "あく",
+        "type": "Dark",
         "level": "1"
       },
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "1"
       },
       {
         "name": "Exp. Point Power",
-        "type": "みず",
+        "type": "Water",
         "level": "1"
       }
     ],
@@ -1341,17 +1341,17 @@
     "effects": [
       {
         "name": "Item Drop Power",
-        "type": "みず",
+        "type": "Water",
         "level": "1"
       },
       {
         "name": "Exp. Point Power",
-        "type": "くさ",
+        "type": "Grass",
         "level": "1"
       },
       {
         "name": "Humungo Power",
-        "type": "はがね",
+        "type": "Steel",
         "level": "1"
       }
     ],
@@ -1374,17 +1374,17 @@
     "effects": [
       {
         "name": "Raid Power",
-        "type": "ゴースト",
+        "type": "Ghost",
         "level": "1"
       },
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "エスパー",
+        "type": "Psychic",
         "level": "1"
       }
     ],
@@ -1406,18 +1406,18 @@
     "cost": "1700",
     "effects": [
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "1"
       },
       {
         "name": "Teensy Power",
-        "type": "はがね",
+        "type": "Steel",
         "level": "1"
       },
       {
         "name": "Raid Power",
-        "type": "エスパー",
+        "type": "Psychic",
         "level": "1"
       }
     ],
@@ -1436,17 +1436,17 @@
     "effects": [
       {
         "name": "Exp. Point Power",
-        "type": "フェアリー",
+        "type": "Fairy",
         "level": "1"
       },
       {
         "name": "Encounter Power",
-        "type": "でんき",
+        "type": "Electric",
         "level": "1"
       },
       {
         "name": "Teensy Power",
-        "type": "じめん",
+        "type": "Ground",
         "level": "1"
       }
     ],
@@ -1465,17 +1465,17 @@
     "effects": [
       {
         "name": "Item Drop Power",
-        "type": "くさ",
+        "type": "Grass",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "いわ",
+        "type": "Rock",
         "level": "1"
       },
       {
         "name": "Teensy Power",
-        "type": "ゴースト",
+        "type": "Ghost",
         "level": "1"
       }
     ],
@@ -1494,17 +1494,17 @@
     "effects": [
       {
         "name": "Catching Power",
-        "type": "あく",
+        "type": "Dark",
         "level": "1"
       },
       {
         "name": "Encounter Power",
-        "type": "いわ",
+        "type": "Rock",
         "level": "1"
       },
       {
         "name": "Humungo Power",
-        "type": "ドラゴン",
+        "type": "Dragon",
         "level": "1"
       }
     ],
@@ -1523,17 +1523,17 @@
     "effects": [
       {
         "name": "Humungo Power",
-        "type": "かくとう",
+        "type": "Fighting",
         "level": "1"
       },
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "1"
       },
       {
         "name": "Item Drop Power",
-        "type": "どく",
+        "type": "Poison",
         "level": "1"
       }
     ],
@@ -1547,22 +1547,22 @@
   {
     "number": "51",
     "name": "Mustard Rice Ball",
-    "description": "The subtle spiciness makes the rice taste 甘味. The key to this dish is a light touch—it should not be dense or heavy!",
+    "description": "The subtle spiciness makes the rice taste sweet. The key to this dish is a light touch—it should not be dense or heavy!",
     "cost": "750",
     "effects": [
       {
         "name": "Encounter Power",
-        "type": "いわ",
+        "type": "Rock",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "こおり",
+        "type": "Ice",
         "level": "1"
       },
       {
         "name": "Humungo Power",
-        "type": "でんき",
+        "type": "Electric",
         "level": "1"
       }
     ],
@@ -1580,17 +1580,17 @@
     "effects": [
       {
         "name": "Exp. Point Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "1"
       },
       {
         "name": "Item Drop Power",
-        "type": "はがね",
+        "type": "Steel",
         "level": "1"
       },
       {
         "name": "Encounter Power",
-        "type": "どく",
+        "type": "Poison",
         "level": "1"
       }
     ],
@@ -1608,16 +1608,16 @@
     "effects": [
       {
         "name": "Teensy Power",
-        "type": "ほのお",
+        "type": "Fire",
         "level": "1"
       },
       {
         "name": "Exp. Point Power",
-        "type": "ゴースト",
+        "type": "Ghost",
         "level": "1"
       },
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "1"
       }
@@ -1636,17 +1636,17 @@
     "effects": [
       {
         "name": "Item Drop Power",
-        "type": "じめん",
+        "type": "Ground",
         "level": "1"
       },
       {
         "name": "Humungo Power",
-        "type": "ゴースト",
+        "type": "Ghost",
         "level": "1"
       },
       {
         "name": "Encounter Power",
-        "type": "いわ",
+        "type": "Rock",
         "level": "1"
       }
     ],
@@ -1663,18 +1663,18 @@
     "cost": "920",
     "effects": [
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "1"
       },
       {
         "name": "Encounter Power",
-        "type": "ほのお",
+        "type": "Fire",
         "level": "1"
       },
       {
         "name": "Raid Power",
-        "type": "くさ",
+        "type": "Grass",
         "level": "1"
       }
     ],
@@ -1692,16 +1692,16 @@
     "effects": [
       {
         "name": "Item Drop Power",
-        "type": "ほのお",
+        "type": "Fire",
         "level": "2"
       },
       {
         "name": "Humungo Power",
-        "type": "くさ",
+        "type": "Grass",
         "level": "1"
       },
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "1"
       }
@@ -1720,17 +1720,17 @@
     "effects": [
       {
         "name": "Exp. Point Power",
-        "type": "どく",
+        "type": "Poison",
         "level": "2"
       },
       {
         "name": "Encounter Power",
-        "type": "エスパー",
+        "type": "Psychic",
         "level": "1"
       },
       {
         "name": "Raid Power",
-        "type": "こおり",
+        "type": "Ice",
         "level": "1"
       }
     ],
@@ -1747,18 +1747,18 @@
     "cost": "3200",
     "effects": [
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "2"
       },
       {
         "name": "Item Drop Power",
-        "type": "フェアリー",
+        "type": "Fairy",
         "level": "1"
       },
       {
         "name": "Humungo Power",
-        "type": "かくとう",
+        "type": "Fighting",
         "level": "1"
       }
     ],
@@ -1776,17 +1776,17 @@
     "effects": [
       {
         "name": "Teensy Power",
-        "type": "ドラゴン",
+        "type": "Dragon",
         "level": "2"
       },
       {
         "name": "Catching Power",
-        "type": "ゴースト",
+        "type": "Ghost",
         "level": "1"
       },
       {
         "name": "Item Drop Power",
-        "type": "こおり",
+        "type": "Ice",
         "level": "1"
       }
     ],
@@ -1804,17 +1804,17 @@
     "effects": [
       {
         "name": "Humungo Power",
-        "type": "いわ",
+        "type": "Rock",
         "level": "2"
       },
       {
         "name": "Exp. Point Power",
-        "type": "エスパー",
+        "type": "Psychic",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "はがね",
+        "type": "Steel",
         "level": "1"
       }
     ],
@@ -1832,17 +1832,17 @@
     "effects": [
       {
         "name": "Exp. Point Power",
-        "type": "エスパー",
+        "type": "Psychic",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "じめん",
+        "type": "Ground",
         "level": "1"
       },
       {
         "name": "Teensy Power",
-        "type": "ほのお",
+        "type": "Fire",
         "level": "1"
       }
     ],
@@ -1862,17 +1862,17 @@
     "effects": [
       {
         "name": "Encounter Power",
-        "type": "エスパー",
+        "type": "Psychic",
         "level": "1"
       },
       {
         "name": "Item Drop Power",
-        "type": "むし",
+        "type": "Bug",
         "level": "1"
       },
       {
         "name": "Raid Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "1"
       }
     ],
@@ -1892,17 +1892,17 @@
     "effects": [
       {
         "name": "Catching Power",
-        "type": "ドラゴン",
+        "type": "Dragon",
         "level": "1"
       },
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "1"
       },
       {
         "name": "Teensy Power",
-        "type": "くさ",
+        "type": "Grass",
         "level": "1"
       }
     ],
@@ -1922,17 +1922,17 @@
     "effects": [
       {
         "name": "Item Drop Power",
-        "type": "あく",
+        "type": "Dark",
         "level": "1"
       },
       {
         "name": "Teensy Power",
-        "type": "ドラゴン",
+        "type": "Dragon",
         "level": "1"
       },
       {
         "name": "Exp. Point Power",
-        "type": "いわ",
+        "type": "Rock",
         "level": "1"
       }
     ],
@@ -1955,16 +1955,16 @@
     "effects": [
       {
         "name": "Encounter Power",
-        "type": "フェアリー",
+        "type": "Fairy",
         "level": "1"
       },
       {
         "name": "Teensy Power",
-        "type": "でんき",
+        "type": "Electric",
         "level": "1"
       },
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "1"
       }
@@ -1988,16 +1988,16 @@
     "effects": [
       {
         "name": "Raid Power",
-        "type": "みず",
+        "type": "Water",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "フェアリー",
+        "type": "Fairy",
         "level": "1"
       },
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "1"
       }
@@ -2019,17 +2019,17 @@
     "effects": [
       {
         "name": "Exp. Point Power",
-        "type": "じめん",
+        "type": "Ground",
         "level": "1"
       },
       {
         "name": "Humungo Power",
-        "type": "こおり",
+        "type": "Ice",
         "level": "1"
       },
       {
         "name": "Encounter Power",
-        "type": "でんき",
+        "type": "Electric",
         "level": "1"
       }
     ],
@@ -2049,18 +2049,18 @@
     "cost": "900",
     "effects": [
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "1"
       },
       {
         "name": "Encounter Power",
-        "type": "みず",
+        "type": "Water",
         "level": "1"
       },
       {
         "name": "Teensy Power",
-        "type": "はがね",
+        "type": "Steel",
         "level": "1"
       }
     ],
@@ -2075,27 +2075,27 @@
   },
   {
     "number": "69",
-    "name": "Mint Chocolate こおり Cream",
+    "name": "Mint Chocolate Ice Cream",
     "description": "The mint flavor is strong and the chocolate is bitter—a distinct contrast that keeps you coming back for more.",
     "cost": "950",
     "effects": [
       {
         "name": "Raid Power",
-        "type": "フェアリー",
+        "type": "Fairy",
         "level": "1"
       },
       {
         "name": "Humungo Power",
-        "type": "はがね",
+        "type": "Steel",
         "level": "1"
       },
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "1"
       }
     ],
-    "shop": "Sugar-N-"こおり",
+    "shop": "Sugar-N-Ice",
     "towns": [
       "Cortondo",
       "Levincia",
@@ -2110,27 +2110,27 @@
   },
   {
     "number": "70",
-    "name": "Fizzy-Pop こおり Cream",
+    "name": "Fizzy-Pop Ice Cream",
     "description": "The texture of this icy treat is delightful—and its light sweetness is, too. You'll never get tired of eating this.",
     "cost": "900",
     "effects": [
       {
         "name": "Exp. Point Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "みず",
+        "type": "Water",
         "level": "1"
       },
       {
         "name": "Humungo Power",
-        "type": "ほのお",
+        "type": "Fire",
         "level": "1"
       }
     ],
-    "shop": "Sugar-N-"こおり",
+    "shop": "Sugar-N-Ice",
     "towns": [
       "Cortondo",
       "Levincia",
@@ -2145,27 +2145,27 @@
   },
   {
     "number": "71",
-    "name": "Strawberry こおり Cream",
-    "description": "Fresh strawberries are folded into the こおり cream, so you can taste their natural sweetness.",
+    "name": "Strawberry Ice Cream",
+    "description": "Fresh strawberries are folded into the ice cream, so you can taste their natural sweetness.",
     "cost": "900",
     "effects": [
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "1"
       },
       {
         "name": "Exp. Point Power",
-        "type": "みず",
+        "type": "Water",
         "level": "1"
       },
       {
         "name": "Raid Power",
-        "type": "いわ",
+        "type": "Rock",
         "level": "1"
       }
     ],
-    "shop": "Sugar-N-"こおり",
+    "shop": "Sugar-N-Ice",
     "towns": [
       "Cortondo",
       "Levincia",
@@ -2180,27 +2180,27 @@
   },
   {
     "number": "72",
-    "name": "Mango こおり Cream",
-    "description": "Well-ripened mangoes are carefully selected for this こおり cream. Its stunning sweetness may not be for everyone.",
+    "name": "Mango Ice Cream",
+    "description": "Well-ripened mangoes are carefully selected for this ice cream. Its stunning sweetness may not be for everyone.",
     "cost": "900",
     "effects": [
       {
         "name": "Teensy Power",
-        "type": "ノーマル",
+        "type": "Normal",
         "level": "1"
       },
       {
         "name": "Raid Power",
-        "type": "ドラゴン",
+        "type": "Dragon",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "でんき",
+        "type": "Electric",
         "level": "1"
       }
     ],
-    "shop": "Sugar-N-"こおり",
+    "shop": "Sugar-N-Ice",
     "towns": [
       "Cortondo",
       "Levincia",
@@ -2215,27 +2215,27 @@
   },
   {
     "number": "73",
-    "name": "Nacli Salt こおり Cream",
-    "description": "This is the shop's signature こおり cream, using Nacli's salt for its gentler flavor.",
+    "name": "Nacli Salt Ice Cream",
+    "description": "This is the shop's signature ice cream, using Nacli's salt for its gentler flavor.",
     "cost": "900",
     "effects": [
       {
         "name": "Humungo Power",
-        "type": "こおり",
+        "type": "Ice",
         "level": "1"
       },
       {
         "name": "Item Drop Power",
-        "type": "くさ",
+        "type": "Grass",
         "level": "1"
       },
       {
         "name": "Catching Power",
-        "type": "あく",
+        "type": "Dark",
         "level": "1"
       }
     ],
-    "shop": "Sugar-N-"こおり",
+    "shop": "Sugar-N-Ice",
     "towns": [
       "Cortondo",
       "Levincia",
@@ -2250,27 +2250,27 @@
   },
   {
     "number": "74",
-    "name": "Teriyaki こおり Cream",
-    "description": "This dish is secretly very popular, with the 甘味-and-salty sauce bringing many repeat customers.",
+    "name": "Teriyaki Ice Cream",
+    "description": "This dish is secretly very popular, with the sweet-and-salty sauce bringing many repeat customers.",
     "cost": "1150",
     "effects": [
       {
         "name": "Item Drop Power",
-        "type": "むし",
+        "type": "Bug",
         "level": "1"
       },
       {
         "name": "Raid Power",
-        "type": "かくとう",
+        "type": "Fighting",
         "level": "1"
       },
       {
-        "name": "タマゴパワー",
+        "name": "Egg Power",
         "type": "",
         "level": "1"
       }
     ],
-    "shop": "Sugar-N-"こおり",
+    "shop": "Sugar-N-Ice",
     "towns": [
       "Cortondo",
       "Levincia",

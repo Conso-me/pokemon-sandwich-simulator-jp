@@ -1,11 +1,12 @@
 // import { useEffect, useState } from 'react';
 import { calculatePowerAmount } from '../util';
-import { ALIAS_TO_FULL, COLORS, mode, copyTextToClipboard, isFilling, isFlavor, isType, shadeColor } from '../util';
+import { ALIAS_TO_FULL, COLORS, FLAVOR_TABLE_EZ, mode, copyTextToClipboard, isFilling, isFlavor, isPower, isType, shadeColor } from '../util';
 import TYPES from '../data/types.json';
 import POWERS from '../data/powers.json';
 import FLAVORS from '../data/flavors.json';
 import FILLINGS from '../data/fillings.json';
 import SANDWICHES from '../data/sandwiches.json';
+import TRANSRATE from '../data/translate_jp.json';
 
 const Card = props => {
     const ingredient = props.ingredient;
@@ -59,7 +60,7 @@ const Card = props => {
 
         return <div className={className} style={{ backgroundColor, borderColor, backgroundImage }} key={id}
             onClick={() => onSelectBubble(key)}>
-            <div>{key}:</div>
+            <div>{TRANSRATE[key] ? TRANSRATE[key] : key}:</div>
             <div style={{ marginLeft: "10px" }}>{kv.modded ? `${value} (${value - 100} + 100)` : value}</div>
         </div>;
     };
@@ -129,17 +130,25 @@ const Card = props => {
         props.updatePieces();
     };
 
+    // const flavorComboStr = FLAVOR_TABLE_EZ[props?.activeKey.power];
+    const flavorComboStr = TRANSRATE[FLAVOR_TABLE_EZ[props?.activeKey.power]] ? TRANSRATE[FLAVOR_TABLE_EZ[props?.activeKey.power]] : FLAVOR_TABLE_EZ[props?.activeKey.power]
+    const powerExplain = isPower(props?.activeKey.power) ? `+100 ${TRANSRATE[props.activeKey.power] ? TRANSRATE[props.activeKey.power] : props.activeKey.power}: ${flavorComboStr}` : "";
+    const powerExplainDisplay = flavorComboStr ? "" : "none";
+    const powerExplainTitle = "味覚ブースト";
+
+
     return (
       <div
         key={props.number ? props.number : ""} className='card'
-        style={{ borderColor, backgroundColor, alignSelf: "center", position: "relative" }}>
+        style={{ borderColor, backgroundColor, alignSelf: "center", position: "relative" ,display:"inline-block"}}>
         {!isSum && <div className='bubble bubble-header' onClick={props?.onClick}>
             <img alt={ingredient.name} src={ingredient.imageUrl} />
-            <div>{ingredient.name}</div>            
+            <div>{TRANSRATE[ingredient.name] ? TRANSRATE[ingredient.name] : ingredient.name}</div>            
         </div>}
-        {isSum && <div className='bubble bubble-header' title={sumStr} onClick={() => copyValues(tastes, powers, types)}>
-            <img alt={"Total"} src="https://www.serebii.net/itemdex/sprites/sandwich.png" />
-            <div>Total Stats</div>
+        {isSum && <div className='bubble bubble-header' onClick={() => copyValues(tastes, powers, types)}>
+            <img alt={"Total"} src="https://www.serebii.net/itemdex/sprites/sandwich.png" title={sumStr} />
+            <div>{TRANSRATE["Total Stats"] ? TRANSRATE["Total Stats"] : "Total Stats"}</div>
+            <div id='power-flavors-description' title={powerExplainTitle} style={{ display: powerExplainDisplay }}>{powerExplain}</div>
         </div>}
         {!isSum && ingredient && isFilling(ingredient) && <div className="pieces">
             <div title='How many pieces of this filling to put on sandwich'>Pieces: {ingredient.pieces}</div>
